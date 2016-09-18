@@ -1,0 +1,1 @@
+angular.module('se.searchar.searcharlib-ext', []);
