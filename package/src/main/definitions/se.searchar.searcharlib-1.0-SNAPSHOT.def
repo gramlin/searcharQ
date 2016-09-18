@@ -1,6 +1,6 @@
 char-set: UTF-8
 #
-#  File exported Thu Feb 25 18:52:39 PST 2016
+#  File exported Sun Sep 18 15:15:36 CEST 2016
 #
 begin application
    name           : se.searchar.searcharlib
@@ -8,16 +8,2742 @@ begin container
    name           : se.searchar.searcharlib
    type           : 2
    num-references : 1
-   timestamp      : 1456453588
+   timestamp      : 1474197539
    owner          : Demo
-   last-changed   : Demo
+   last-changed   : ARSERVER
    export-version : 13
-   object-prop    : 2\90002\4\23\se.searchar.searcharlib\90019\4\23\se.searchar.searcharlib\
+   object-prop    : 3\90019\2\0\90015\2\1\90002\4\23\se.searchar.searcharlib\
 reference {
    type           : 32839
    datatype       : 1
    value          : 2\2\
 }
 end
+begin schema data
+   name           : AppLocalConfig_ComponentBase
+   data-mapping   : <?xml version="1.0" encoding="utf-8"?><arDocMapping xmlns="urn:remedy:schemas:ars" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0">
+   data-mapping   :     <element name="entryList">        <formMapping>            <form foreignKeyId="1" formName="AppLocalConfig_ComponentBase" mapType="embedded" prima
+   data-mapping   : ryKeyId="1"/>            <element name="entryItem">                <element dataType="string" name="f1_Request_ID">                    <fieldMapping 
+   data-mapping   : arFieldId="1"/>                </element>                <element dataType="string" name="f2_Submitter">                    <fieldMapping arFieldId="
+   data-mapping   : 2"/>                </element>                <element dataType="dateTime" name="f3_Create_Date">                    <fieldMapping arFieldId="3"/>  
+   data-mapping   :               </element>                <element dataType="string" name="f4_Assigned_To">                    <fieldMapping arFieldId="4"/>           
+   data-mapping   :      </element>                <element dataType="string" name="f5_Last_Modified_By">                    <fieldMapping arFieldId="5"/>               
+   data-mapping   :  </element>                <element dataType="dateTime" name="f6_Modified_Date">                    <fieldMapping arFieldId="6"/>                </el
+   data-mapping   : ement>                <element dataType="string" name="f7_Status">                    <fieldMapping arFieldId="7"/>                </element>       
+   data-mapping   :          <element dataType="string" name="f8_Short_Description">                    <fieldMapping arFieldId="8"/>                </element>          
+   data-mapping   :       <element dataType="string" name="f15_Status_History">                    <fieldMapping arFieldId="15"/>                </element>              
+   data-mapping   :   <element dataType="string" name="f16_Notifier_Listening">                    <fieldMapping arFieldId="16"/>                </element>              
+   data-mapping   :   <element dataType="string" name="f112_Assignee_Group">                    <fieldMapping arFieldId="112"/>                </element>                
+   data-mapping   : <element dataType="string" name="f17__ComponentGUID">                    <fieldMapping arFieldId="179"/>                </element>                <el
+   data-mapping   : ement dataType="string" name="f37__Record_ID">                    <fieldMapping arFieldId="379"/>                </element>                <element d
+   data-mapping   : ataType="string" name="f3200_Component_Name">                    <fieldMapping arFieldId="3200"/>                </element>                <element d
+   data-mapping   : ataType="string" name="f3250_ShowInNAVBar">                    <fieldMapping arFieldId="3250"/>                </element>                <element dat
+   data-mapping   : aType="string" name="f3251_Multiples">                    <fieldMapping arFieldId="3251"/>                </element>                <element dataType
+   data-mapping   : ="string" name="f3252_ViewToOpen">                    <fieldMapping arFieldId="3252"/>                </element>                <element dataType="st
+   data-mapping   : ring" name="f3257_ParentComponentName">                    <fieldMapping arFieldId="3257"/>                </element>                <element dataTyp
+   data-mapping   : e="string" name="f3258_Radio_Button_Field">                    <fieldMapping arFieldId="3258"/>                </element>                <element dat
+   data-mapping   : aType="string" name="f325__Location">                    <fieldMapping arFieldId="3259"/>                </element>                <element dataType=
+   data-mapping   : "string" name="f3260_Registered_Module_Name">                    <fieldMapping arFieldId="3260"/>                </element>                <element d
+   data-mapping   : ataType="string" name="f3261_Is_View">                    <fieldMapping arFieldId="3261"/>                </element>                <element dataType
+   data-mapping   : ="string" name="f3265_Show_In">                    <fieldMapping arFieldId="3265"/>                </element>                <element dataType="strin
+   data-mapping   : g" name="f60005_Shared_Settings_Write">                    <fieldMapping arFieldId="60005"/>                </element>                <element dataTy
+   data-mapping   : pe="string" name="f60006_Shared_Settings_Read">                    <fieldMapping arFieldId="60006"/>                </element>                <elemen
+   data-mapping   : t dataType="string" name="f60_8__ParentAssigneeGroup">                    <fieldMapping arFieldId="60989"/>                </element>                
+   data-mapping   : <element dataType="string" name="f61001_Application">                    <fieldMapping arFieldId="61001"/>                </element>                <
+   data-mapping   : element dataType="string" name="f61002_ImpactRowVisibility">                    <fieldMapping arFieldId="61002"/>                </element>          
+   data-mapping   :   </element>        </formMapping>    </element></arDocMapping>
+   data           : <?xml version="1.0" encoding="utf-8"?><entryList xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">   
+   data           :  <entryItem>        <f1_Request_ID>000000000002715</f1_Request_ID>        <f2_Submitter>seth</f2_Submitter>        <f3_Create_Date>2016-09-18T13:25:0
+   data           : 0+02:00</f3_Create_Date>        <f4_Assigned_To/>        <f5_Last_Modified_By>seth</f5_Last_Modified_By>        <f6_Modified_Date>2016-09-18T13:25:00
+   data           : +02:00</f6_Modified_Date>        <f7_Status>Active</f7_Status>        <f8_Short_Description>Searchar config</f8_Short_Description>        <f15_Status
+   data           : _History>2016-09-18T13:25:00+02:00seth</f15_Status_History>        <f16_Notifier_Listening>Not Listening</f16_Notifier_Listening>        <f112_Assig
+   data           : nee_Group/>        <f17__ComponentGUID>AGGAAC47HT0YNAO3PG3OO2TKVU0PWI</f17__ComponentGUID>        <f37__Record_ID>AGGAAC47HT0YNAO3PG3OO2TKVU0PWI</f37_
+   data           : _Record_ID>        <f3200_Component_Name>Searchar config</f3200_Component_Name>        <f3250_ShowInNAVBar>No</f3250_ShowInNAVBar>        <f3251_Mult
+   data           : iples>No</f3251_Multiples>        <f3252_ViewToOpen>Common Settings</f3252_ViewToOpen>        <f3257_ParentComponentName/>        <f3258_Radio_Button
+   data           : _Field>In Bundle</f3258_Radio_Button_Field>        <f325__Location/>        <f3260_Registered_Module_Name/>        <f3261_Is_View>No</f3261_Is_View>
+   data           :         <f3265_Show_In>Both</f3265_Show_In>        <f60005_Shared_Settings_Write/>        <f60006_Shared_Settings_Read/>        <f60_8__ParentAssigne
+   data           : eGroup/>        <f61001_Application>se.searchar.searcharlib</f61001_Application>        <f61002_ImpactRowVisibility>None</f61002_ImpactRowVisibility>
+   data           :     </entryItem></entryList>
+end
+
+begin schema data
+   name           : AppLocalConfig_SettingDisplay
+   data-mapping   : <?xml version="1.0" encoding="utf-8"?><arDocMapping xmlns="urn:remedy:schemas:ars" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0">
+   data-mapping   :     <element name="entryList">        <formMapping>            <form foreignKeyId="1" formName="AppLocalConfig_SettingDisplay" mapType="embedded" prim
+   data-mapping   : aryKeyId="1"/>            <element name="entryItem">                <element dataType="string" name="f1_Request_ID">                    <fieldMapping
+   data-mapping   :  arFieldId="1"/>                </element>                <element dataType="string" name="f2_Submitter">                    <fieldMapping arFieldId=
+   data-mapping   : "2"/>                </element>                <element dataType="dateTime" name="f3_Create_Date">                    <fieldMapping arFieldId="3"/> 
+   data-mapping   :                </element>                <element dataType="string" name="f4_Assigned_To">                    <fieldMapping arFieldId="4"/>          
+   data-mapping   :       </element>                <element dataType="string" name="f5_Last_Modified_By">                    <fieldMapping arFieldId="5"/>              
+   data-mapping   :   </element>                <element dataType="dateTime" name="f6_Modified_Date">                    <fieldMapping arFieldId="6"/>                </e
+   data-mapping   : lement>                <element dataType="string" name="f7_Status">                    <fieldMapping arFieldId="7"/>                </element>      
+   data-mapping   :           <element dataType="string" name="f8_Short_Description">                    <fieldMapping arFieldId="8"/>                </element>         
+   data-mapping   :        <element dataType="string" name="f15_Status_History">                    <fieldMapping arFieldId="15"/>                </element>             
+   data-mapping   :    <element dataType="string" name="f16_Notifier_Listening">                    <fieldMapping arFieldId="16"/>                </element>             
+   data-mapping   :    <element dataType="string" name="f112_Assignee_Group">                    <fieldMapping arFieldId="112"/>                </element>               
+   data-mapping   :  <element dataType="string" name="f160_Locale">                    <fieldMapping arFieldId="160"/>                </element>                <element 
+   data-mapping   : dataType="string" name="f17__SettingDisplayGUID">                    <fieldMapping arFieldId="179"/>                </element>                <elemen
+   data-mapping   : t dataType="string" name="f37__Record_ID">                    <fieldMapping arFieldId="379"/>                </element>                <element dataT
+   data-mapping   : ype="string" name="f3200_Component_Name">                    <fieldMapping arFieldId="3200"/>                </element>                <element dataT
+   data-mapping   : ype="string" name="f3204_Setting_Name">                    <fieldMapping arFieldId="3204"/>                </element>                <element dataTyp
+   data-mapping   : e="string" name="f3260_FieldGrouping">                    <fieldMapping arFieldId="3260"/>                </element>                <element dataType
+   data-mapping   : ="string" name="f3266_SettingLabel">                    <fieldMapping arFieldId="3266"/>                </element>                <element dataType="
+   data-mapping   : string" name="f3267_Setting_Description">                    <fieldMapping arFieldId="3267"/>                </element>                <element dataT
+   data-mapping   : ype="string" name="f60_8__ParentAssigneeGroup">                    <fieldMapping arFieldId="60989"/>                </element>                <elemen
+   data-mapping   : t dataType="string" name="f61001_Application">                    <fieldMapping arFieldId="61001"/>                </element>            </element> 
+   data-mapping   :        </formMapping>    </element></arDocMapping>
+   data           : <?xml version="1.0" encoding="utf-8"?><entryList xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">   
+   data           :  <entryItem>        <f1_Request_ID>000000000001328</f1_Request_ID>        <f2_Submitter>seth</f2_Submitter>        <f3_Create_Date>2016-09-18T13:25:0
+   data           : 0+02:00</f3_Create_Date>        <f4_Assigned_To/>        <f5_Last_Modified_By>seth</f5_Last_Modified_By>        <f6_Modified_Date>2016-09-18T13:25:00
+   data           : +02:00</f6_Modified_Date>        <f7_Status>Active</f7_Status>        <f8_Short_Description>Searcharlicens</f8_Short_Description>        <f15_Status_
+   data           : History>2016-09-18T13:25:00+02:00seth</f15_Status_History>        <f16_Notifier_Listening>Not Listening</f16_Notifier_Listening>        <f112_Assign
+   data           : ee_Group/>        <f160_Locale>en</f160_Locale>        <f17__SettingDisplayGUID>AGGAAC47HT0YNAO3PG3OO2TKVU0PW0</f17__SettingDisplayGUID>        <f37_
+   data           : _Record_ID>AGGAAC47HT0YNAO3PG3OO2TKVU0PW0</f37__Record_ID>        <f3200_Component_Name>Searchar config</f3200_Component_Name>        <f3204_Setting_N
+   data           : ame>Searcharlicens</f3204_Setting_Name>        <f3260_FieldGrouping>General</f3260_FieldGrouping>        <f3266_SettingLabel>Searcharlicens</f3266_Set
+   data           : tingLabel>        <f3267_Setting_Description/>        <f60_8__ParentAssigneeGroup/>        <f61001_Application>se.searchar.searcharlib</f61001_Applic
+   data           : ation>    </entryItem></entryList>
+end
+
+begin schema data
+   name           : AppLocalConfig_ComponentDisplay
+   data-mapping   : <?xml version="1.0" encoding="utf-8"?><arDocMapping xmlns="urn:remedy:schemas:ars" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0">
+   data-mapping   :     <element name="entryList">        <formMapping>            <form foreignKeyId="1" formName="AppLocalConfig_ComponentDisplay" mapType="embedded" pr
+   data-mapping   : imaryKeyId="1"/>            <element name="entryItem">                <element dataType="string" name="f1_Request_ID">                    <fieldMappi
+   data-mapping   : ng arFieldId="1"/>                </element>                <element dataType="string" name="f2_Submitter">                    <fieldMapping arFieldI
+   data-mapping   : d="2"/>                </element>                <element dataType="dateTime" name="f3_Create_Date">                    <fieldMapping arFieldId="3"/>
+   data-mapping   :                 </element>                <element dataType="string" name="f4_Assigned_To">                    <fieldMapping arFieldId="4"/>        
+   data-mapping   :         </element>                <element dataType="string" name="f5_Last_Modified_By">                    <fieldMapping arFieldId="5"/>            
+   data-mapping   :     </element>                <element dataType="dateTime" name="f6_Modified_Date">                    <fieldMapping arFieldId="6"/>                <
+   data-mapping   : /element>                <element dataType="string" name="f7_Status">                    <fieldMapping arFieldId="7"/>                </element>    
+   data-mapping   :             <element dataType="string" name="f8_Short_Description">                    <fieldMapping arFieldId="8"/>                </element>       
+   data-mapping   :          <element dataType="string" name="f15_Status_History">                    <fieldMapping arFieldId="15"/>                </element>           
+   data-mapping   :      <element dataType="string" name="f16_Notifier_Listening">                    <fieldMapping arFieldId="16"/>                </element>           
+   data-mapping   :      <element dataType="string" name="f112_Assignee_Group">                    <fieldMapping arFieldId="112"/>                </element>             
+   data-mapping   :    <element dataType="string" name="f160_Locale">                    <fieldMapping arFieldId="160"/>                </element>                <elemen
+   data-mapping   : t dataType="string" name="f17__ComponentDisplayGUID">                    <fieldMapping arFieldId="179"/>                </element>                <el
+   data-mapping   : ement dataType="string" name="f37__Record_ID">                    <fieldMapping arFieldId="379"/>                </element>                <element d
+   data-mapping   : ataType="string" name="f3200_Component_Name">                    <fieldMapping arFieldId="3200"/>                </element>                <element d
+   data-mapping   : ataType="string" name="f3253_Group1">                    <fieldMapping arFieldId="3253"/>                </element>                <element dataType=
+   data-mapping   : "string" name="f3254_Group2">                    <fieldMapping arFieldId="3254"/>                </element>                <element dataType="string"
+   data-mapping   :  name="f3255_ComponentTitle">                    <fieldMapping arFieldId="3255"/>                </element>                <element dataType="string"
+   data-mapping   :  name="f3256_Description">                    <fieldMapping arFieldId="3256"/>                </element>                <element dataType="string" na
+   data-mapping   : me="f60_8__ParentAssigneeGroup">                    <fieldMapping arFieldId="60989"/>                </element>                <element dataType="str
+   data-mapping   : ing" name="f61001_Application">                    <fieldMapping arFieldId="61001"/>                </element>            </element>        </formMa
+   data-mapping   : pping>    </element></arDocMapping>
+   data           : <?xml version="1.0" encoding="utf-8"?><entryList xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">   
+   data           :  <entryItem>        <f1_Request_ID>000000000002815</f1_Request_ID>        <f2_Submitter>seth</f2_Submitter>        <f3_Create_Date>2016-09-18T13:25:0
+   data           : 0+02:00</f3_Create_Date>        <f4_Assigned_To/>        <f5_Last_Modified_By>seth</f5_Last_Modified_By>        <f6_Modified_Date>2016-09-18T13:25:00
+   data           : +02:00</f6_Modified_Date>        <f7_Status>Active</f7_Status>        <f8_Short_Description>New Config</f8_Short_Description>        <f15_Status_Hist
+   data           : ory>2016-09-18T13:25:00+02:00seth</f15_Status_History>        <f16_Notifier_Listening>Not Listening</f16_Notifier_Listening>        <f112_Assignee_G
+   data           : roup/>        <f160_Locale>en</f160_Locale>        <f17__ComponentDisplayGUID>AGGAAC47HT0YNAO3PG3OO2TKVU0PWH</f17__ComponentDisplayGUID>        <f37_
+   data           : _Record_ID>AGGAAC47HT0YNAO3PG3OO2TKVU0PWH</f37__Record_ID>        <f3200_Component_Name>Searchar config</f3200_Component_Name>        <f3253_Group1/>
+   data           :         <f3254_Group2/>        <f3255_ComponentTitle>New Config</f3255_ComponentTitle>        <f3256_Description/>        <f60_8__ParentAssigneeGroup
+   data           : />        <f61001_Application>se.searchar.searcharlib</f61001_Application>    </entryItem></entryList>
+end
+
+begin schema data
+   name           : AppLocalConfig_SettingBase
+   data-mapping   : <?xml version="1.0" encoding="utf-8"?><arDocMapping xmlns="urn:remedy:schemas:ars" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0">
+   data-mapping   :     <element name="entryList">        <formMapping>            <form foreignKeyId="1" formName="AppLocalConfig_SettingBase" mapType="embedded" primary
+   data-mapping   : KeyId="1"/>            <element name="entryItem">                <element dataType="string" name="f1_Request_ID">                    <fieldMapping ar
+   data-mapping   : FieldId="1"/>                </element>                <element dataType="string" name="f2_Submitter">                    <fieldMapping arFieldId="2"
+   data-mapping   : />                </element>                <element dataType="dateTime" name="f3_Create_Date">                    <fieldMapping arFieldId="3"/>    
+   data-mapping   :             </element>                <element dataType="string" name="f4_Assigned_To">                    <fieldMapping arFieldId="4"/>             
+   data-mapping   :    </element>                <element dataType="string" name="f5_Last_Modified_By">                    <fieldMapping arFieldId="5"/>                <
+   data-mapping   : /element>                <element dataType="dateTime" name="f6_Modified_Date">                    <fieldMapping arFieldId="6"/>                </elem
+   data-mapping   : ent>                <element dataType="string" name="f7_Status">                    <fieldMapping arFieldId="7"/>                </element>         
+   data-mapping   :        <element dataType="string" name="f8_Short_Description">                    <fieldMapping arFieldId="8"/>                </element>            
+   data-mapping   :     <element dataType="string" name="f15_Status_History">                    <fieldMapping arFieldId="15"/>                </element>                
+   data-mapping   : <element dataType="string" name="f16_Notifier_Listening">                    <fieldMapping arFieldId="16"/>                </element>                
+   data-mapping   : <element dataType="string" name="f112_Assignee_Group">                    <fieldMapping arFieldId="112"/>                </element>                <e
+   data-mapping   : lement dataType="string" name="f17__SettingGUID">                    <fieldMapping arFieldId="179"/>                </element>                <elemen
+   data-mapping   : t dataType="string" name="f37__Record_ID">                    <fieldMapping arFieldId="379"/>                </element>                <element dataT
+   data-mapping   : ype="string" name="f3200_Component_Name">                    <fieldMapping arFieldId="3200"/>                </element>                <element dataT
+   data-mapping   : ype="string" name="f3204_Setting_Name">                    <fieldMapping arFieldId="3204"/>                </element>                <element dataTyp
+   data-mapping   : e="string" name="f3257_SettingDataType">                    <fieldMapping arFieldId="3257"/>                </element>                <element dataTy
+   data-mapping   : pe="string" name="f3258_Character_Menu">                    <fieldMapping arFieldId="3258"/>                </element>                <element dataTy
+   data-mapping   : pe="string" name="f325__Limits">                    <fieldMapping arFieldId="3259"/>                </element>                <element dataType="stri
+   data-mapping   : ng" name="f3260_FieldGrouping">                    <fieldMapping arFieldId="3260"/>                </element>                <element dataType="int" 
+   data-mapping   : name="f3261_Field_Order">                    <fieldMapping arFieldId="3261"/>                </element>                <element dataType="string" nam
+   data-mapping   : e="f3262_KeySetting">                    <fieldMapping arFieldId="3262"/>                </element>                <element dataType="string" name="f
+   data-mapping   : 3263_Default_Setting_Value">                    <fieldMapping arFieldId="3263"/>                </element>                <element dataType="string" 
+   data-mapping   : name="f3264_SettingDependencies">                    <fieldMapping arFieldId="3264"/>                </element>                <element dataType="str
+   data-mapping   : ing" name="f3265_BooleanType">                    <fieldMapping arFieldId="3265"/>                </element>                <element dataType="string
+   data-mapping   : " name="f3270_RequiredSetting">                    <fieldMapping arFieldId="3270"/>                </element>                <element dataType="strin
+   data-mapping   : g" name="f60005_Shared_Settings_Write">                    <fieldMapping arFieldId="60005"/>                </element>                <element dataTy
+   data-mapping   : pe="string" name="f60006_Shared_Settings_Read">                    <fieldMapping arFieldId="60006"/>                </element>                <elemen
+   data-mapping   : t dataType="string" name="f60_8__ParentAssigneeGroup">                    <fieldMapping arFieldId="60989"/>                </element>                
+   data-mapping   : <element dataType="string" name="f61001_Application">                    <fieldMapping arFieldId="61001"/>                </element>                <
+   data-mapping   : element dataType="string" name="f61002_ImpactRowVisibility">                    <fieldMapping arFieldId="61002"/>                </element>          
+   data-mapping   :   </element>        </formMapping>    </element></arDocMapping>
+   data           : <?xml version="1.0" encoding="utf-8"?><entryList xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">   
+   data           :  <entryItem>        <f1_Request_ID>000000000001370</f1_Request_ID>        <f2_Submitter>seth</f2_Submitter>        <f3_Create_Date>2016-09-18T13:25:0
+   data           : 0+02:00</f3_Create_Date>        <f4_Assigned_To/>        <f5_Last_Modified_By>seth</f5_Last_Modified_By>        <f6_Modified_Date>2016-09-18T13:25:00
+   data           : +02:00</f6_Modified_Date>        <f7_Status>Active</f7_Status>        <f8_Short_Description>Searcharlicens</f8_Short_Description>        <f15_Status_
+   data           : History>2016-09-18T13:25:00+02:00seth</f15_Status_History>        <f16_Notifier_Listening>Not Listening</f16_Notifier_Listening>        <f112_Assign
+   data           : ee_Group/>        <f17__SettingGUID>AGGAAC47HT0YNAO3PG3OO2TKVU0PWJ</f17__SettingGUID>        <f37__Record_ID>AGGAAC47HT0YNAO3PG3OO2TKVU0PWJ</f37__Reco
+   data           : rd_ID>        <f3200_Component_Name>Searchar config</f3200_Component_Name>        <f3204_Setting_Name>Searcharlicens</f3204_Setting_Name>        <f32
+   data           : 57_SettingDataType>Character</f3257_SettingDataType>        <f3258_Character_Menu/>        <f325__Limits/>        <f3260_FieldGrouping/>        <f32
+   data           : 61_Field_Order>0</f3261_Field_Order>        <f3262_KeySetting>No</f3262_KeySetting>        <f3263_Default_Setting_Value/>        <f3264_SettingDepend
+   data           : encies/>        <f3265_BooleanType/>        <f3270_RequiredSetting>No</f3270_RequiredSetting>        <f60005_Shared_Settings_Write/>        <f60006_
+   data           : Shared_Settings_Read/>        <f60_8__ParentAssigneeGroup/>        <f61001_Application>se.searchar.searcharlib</f61001_Application>        <f61002_Im
+   data           : pactRowVisibility>No</f61002_ImpactRowVisibility>    </entryItem></entryList>
+end
 
 end
+
+begin application
+   name           : se.searchar.searcharlib__o
+begin container
+   name           : se.searchar.searcharlib__o
+   type           : 2
+   num-references : 23
+   timestamp      : 1474198736
+   owner          : Demo
+   last-changed   : seth
+   export-version : 13
+   object-prop    : 6\60070\8\0\60069\8\0\90019\2\0\90016\4\1\1\90015\2\2\90002\4\23\se.searchar.searcharlib\
+reference {
+   type           : 32839
+   datatype       : 1
+   value          : 2\2\
+}
+reference {
+   type           : 32839
+   datatype       : 1
+   value          : 2\2\
+}
+reference {
+   type           : 32847
+   datatype       : 1
+   value          : 0\
+}
+reference {
+   type           : 14
+   datatype       : 1
+   value          : 4\43\se.searchar.searcharlib:searchar_cfg_server\
+}
+reference {
+   type           : 32839
+   datatype       : 1
+   value          : 2\2\
+}
+reference {
+   type           : 32847
+   datatype       : 1
+   value          : 0\
+}
+reference {
+   type           : 14
+   datatype       : 1
+   value          : 4\41\se.searchar.searcharlib:searchar_cfg_form\
+}
+reference {
+   type           : 32839
+   datatype       : 1
+   value          : 2\2\
+}
+reference {
+   type           : 32847
+   datatype       : 1
+   value          : 0\
+}
+reference {
+   type           : 14
+   datatype       : 1
+   value          : 4\42\se.searchar.searcharlib:searchar_cfg_field\
+}
+reference {
+   type           : 32844
+   datatype       : 1
+   value          : 0\
+}
+reference {
+   type           : 11
+   datatype       : 1
+   value          : 4\46\se.searchar.searcharlib:Form_Field_association\
+}
+reference {
+   type           : 32845
+   datatype       : 1
+   value          : 0\
+}
+reference {
+   type           : 12
+   datatype       : 1
+   value          : 4\40\se.searchar.searcharlib:Searcarh Servers\
+}
+reference {
+   type           : 32839
+   datatype       : 1
+   value          : 2\2\
+}
+reference {
+   type           : 32849
+   datatype       : 1
+   value          : 0\
+}
+reference {
+   type           : 16
+   datatype       : 1
+   value          : 4\54\se.searchar.searcharlib:Utility - Create searchar form\
+}
+reference {
+   type           : 32839
+   datatype       : 1
+   value          : 2\2\
+}
+reference {
+   type           : 32849
+   datatype       : 1
+   value          : 0\
+}
+reference {
+   type           : 16
+   datatype       : 1
+   value          : 4\52\se.searchar.searcharlib:Utility - searchar form edit\
+}
+reference {
+   type           : 32839
+   datatype       : 1
+   value          : 2\2\
+}
+reference {
+   type           : 32849
+   datatype       : 1
+   value          : 0\
+}
+reference {
+   type           : 16
+   datatype       : 1
+   value          : 4\53\se.searchar.searcharlib:Utility - list searchar forms\
+}
+end
+begin view definition
+   name           : se.searchar.searcharlib:Utility - Create searchar form
+   definition     : {
+   definition     :   "version" : null,
+   definition     :   "lastUpdateTime" : 1474198409621,
+   definition     :   "lastChangedBy" : "seth",
+   definition     :   "owner" : "seth",
+   definition     :   "name" : "se.searchar.searcharlib:Utility - Create searchar form",
+   definition     :   "tags" : null,
+   definition     :   "description" : "",
+   definition     :   "overlayGroupId" : "1",
+   definition     :   "id" : "11871230-a6d2-46b1-b9a8-eaefb0c4186f",
+   definition     :   "layout" : "{\"layoutTemplate\":5,\"columns\":[{\"role\":\"content\",\"children\":[{\"componentDefinitionId\":\"e8cee999-e7d4-48f9-a76a-5dd8ae04a186\",\"columns\":[{\"children\":[]}]}]}],\"componentDefinitionId\":\"11871230-a6d2-46b1-b9a8-eaefb0c4186f\"}",
+   definition     :   "inputParams" : [ ],
+   definition     :   "outputParams" : [ ],
+   definition     :   "componentDefinitions" : [ {
+   definition     :     "resourceType" : "com.bmc.arsys.rx.services.view.domain.ContainerViewComponentDefinition",
+   definition     :     "version" : null,
+   definition     :     "lastUpdateTime" : 1474198409750,
+   definition     :     "lastChangedBy" : "seth",
+   definition     :     "owner" : "seth",
+   definition     :     "name" : null,
+   definition     :     "tags" : null,
+   definition     :     "description" : null,
+   definition     :     "overlayGroupId" : null,
+   definition     :     "id" : "e8cee999-e7d4-48f9-a76a-5dd8ae04a186",
+   definition     :     "type" : "rx-container",
+   definition     :     "propertiesByName" : {
+   definition     :       "autoFill" : "false",
+   definition     :       "styles" : "",
+   definition     :       "columnCount" : "1",
+   definition     :       "hidden" : "0"
+   definition     :     },
+   definition     :     "layout" : "{\"componentDefinitionId\":\"2fe84801-ed21-427f-b596-1325bec2ff19\",\"columns\":[{\"children\":[{\"componentDefinitionId\":\"54c8c479-958f-44c5-9c0a-114b6a4ba0a1\"},{\"componentDefinitionId\":\"e25ef13f-263d-49df-afda-41dc788a1c69\"}],\"span\":12}]}",
+   definition     :     "componentDefinitions" : [ {
+   definition     :       "resourceType" : "com.bmc.arsys.rx.services.view.domain.ContainerViewComponentDefinition",
+   definition     :       "version" : null,
+   definition     :       "lastUpdateTime" : 1474198409750,
+   definition     :       "lastChangedBy" : "seth",
+   definition     :       "owner" : "seth",
+   definition     :       "name" : null,
+   definition     :       "tags" : null,
+   definition     :       "description" : null,
+   definition     :       "overlayGroupId" : null,
+   definition     :       "id" : "54c8c479-958f-44c5-9c0a-114b6a4ba0a1",
+   definition     :       "type" : "rx-record-editor",
+   definition     :       "propertiesByName" : {
+   definition     :         "recordInstanceId" : null,
+   definition     :         "mode" : "CREATE",
+   definition     :         "autoFill" : "false",
+   definition     :         "recordDefinitionName" : "se.searchar.searcharlib:searchar_cfg_form"
+   definition     :       },
+   definition     :       "layout" : "{\"componentDefinitionId\":\"2a9c5d2a-cdb3-4b93-8c25-14440fbdbae8\",\"columns\":[{\"children\":[{\"componentDefinitionId\":\"67f8a4b1-3e85-4d4d-b1bb-2557731d73f5\"},{\"componentDefinitionId\":\"b7026af3-1194-4946-b95a-d4471a37ab51\"},{\"componentDefinitionId\":\"946abbf4-8f31-44da-90a4-f8337eeada2b\"},{\"componentDefinitionId\":\"a012604f-f68b-4c93-883b-1ffa741a22f7\"}]}]}",
+   definition     :       "componentDefinitions" : [ {
+   definition     :         "resourceType" : "com.bmc.arsys.rx.services.view.domain.ViewComponentDefinition",
+   definition     :         "version" : null,
+   definition     :         "lastUpdateTime" : 1474198409750,
+   definition     :         "lastChangedBy" : "seth",
+   definition     :         "owner" : "seth",
+   definition     :         "name" : null,
+   definition     :         "tags" : null,
+   definition     :         "description" : null,
+   definition     :         "overlayGroupId" : null,
+   definition     :         "id" : "67f8a4b1-3e85-4d4d-b1bb-2557731d73f5",
+   definition     :         "type" : "rx-character-field",
+   definition     :         "propertiesByName" : {
+   definition     :           "recordDefinition" : "${view.components.54c8c479-958f-44c5-9c0a-114b6a4ba0a1.recordDefinition}",
+   definition     :           "recordInstance" : "${view.components.54c8c479-958f-44c5-9c0a-114b6a4ba0a1.recordInstance}",
+   definition     :           "hidden" : "0",
+   definition     :           "disabled" : "0",
+   definition     :           "enableMultiSelection" : "false",
+   definition     :           "label" : "b7ec9355-9947-4609-8421-81afaed2008e",
+   definition     :           "fieldId" : "2"
+   definition     :         }
+   definition     :       }, {
+   definition     :         "resourceType" : "com.bmc.arsys.rx.services.view.domain.ViewComponentDefinition",
+   definition     :         "version" : null,
+   definition     :         "lastUpdateTime" : 1474198409750,
+   definition     :         "lastChangedBy" : "seth",
+   definition     :         "owner" : "seth",
+   definition     :         "name" : null,
+   definition     :         "tags" : null,
+   definition     :         "description" : null,
+   definition     :         "overlayGroupId" : null,
+   definition     :         "id" : "b7026af3-1194-4946-b95a-d4471a37ab51",
+   definition     :         "type" : "rx-selection-field",
+   definition     :         "propertiesByName" : {
+   definition     :           "recordDefinition" : "${view.components.54c8c479-958f-44c5-9c0a-114b6a4ba0a1.recordDefinition}",
+   definition     :           "recordInstance" : "${view.components.54c8c479-958f-44c5-9c0a-114b6a4ba0a1.recordInstance}",
+   definition     :           "hidden" : "0",
+   definition     :           "disabled" : "0",
+   definition     :           "label" : "8187371c-c163-46a0-bcea-7ecab24a1c4e",
+   definition     :           "fieldId" : "7"
+   definition     :         }
+   definition     :       }, {
+   definition     :         "resourceType" : "com.bmc.arsys.rx.services.view.domain.ViewComponentDefinition",
+   definition     :         "version" : null,
+   definition     :         "lastUpdateTime" : 1474198409750,
+   definition     :         "lastChangedBy" : "seth",
+   definition     :         "owner" : "seth",
+   definition     :         "name" : null,
+   definition     :         "tags" : null,
+   definition     :         "description" : null,
+   definition     :         "overlayGroupId" : null,
+   definition     :         "id" : "946abbf4-8f31-44da-90a4-f8337eeada2b",
+   definition     :         "type" : "rx-character-field",
+   definition     :         "propertiesByName" : {
+   definition     :           "recordDefinition" : "${view.components.54c8c479-958f-44c5-9c0a-114b6a4ba0a1.recordDefinition}",
+   definition     :           "recordInstance" : "${view.components.54c8c479-958f-44c5-9c0a-114b6a4ba0a1.recordInstance}",
+   definition     :           "hidden" : "0",
+   definition     :           "disabled" : "0",
+   definition     :           "enableMultiSelection" : "false",
+   definition     :           "label" : "03213fc1-eefd-4770-9461-3483d56c2551",
+   definition     :           "fieldId" : "8"
+   definition     :         }
+   definition     :       }, {
+   definition     :         "resourceType" : "com.bmc.arsys.rx.services.view.domain.ViewComponentDefinition",
+   definition     :         "version" : null,
+   definition     :         "lastUpdateTime" : 1474198409750,
+   definition     :         "lastChangedBy" : "seth",
+   definition     :         "owner" : "seth",
+   definition     :         "name" : null,
+   definition     :         "tags" : null,
+   definition     :         "description" : null,
+   definition     :         "overlayGroupId" : null,
+   definition     :         "id" : "a012604f-f68b-4c93-883b-1ffa741a22f7",
+   definition     :         "type" : "rx-character-field",
+   definition     :         "propertiesByName" : {
+   definition     :           "recordDefinition" : "${view.components.54c8c479-958f-44c5-9c0a-114b6a4ba0a1.recordDefinition}",
+   definition     :           "recordInstance" : "${view.components.54c8c479-958f-44c5-9c0a-114b6a4ba0a1.recordInstance}",
+   definition     :           "hidden" : "0",
+   definition     :           "disabled" : "0",
+   definition     :           "enableMultiSelection" : "false",
+   definition     :           "label" : "df9d45a5-abc0-46bd-b394-9b3cb8b0b83f",
+   definition     :           "fieldId" : "536870913"
+   definition     :         }
+   definition     :       } ]
+   definition     :     }, {
+   definition     :       "resourceType" : "com.bmc.arsys.rx.services.view.domain.ContainerViewComponentDefinition",
+   definition     :       "version" : null,
+   definition     :       "lastUpdateTime" : 1474198409750,
+   definition     :       "lastChangedBy" : "seth",
+   definition     :       "owner" : "seth",
+   definition     :       "name" : null,
+   definition     :       "tags" : null,
+   definition     :       "description" : null,
+   definition     :       "overlayGroupId" : null,
+   definition     :       "id" : "e25ef13f-263d-49df-afda-41dc788a1c69",
+   definition     :       "type" : "rx-action-button",
+   definition     :       "propertiesByName" : {
+   definition     :         "style" : "primary",
+   definition     :         "disabled" : "0",
+   definition     :         "label" : "05d69eb7-98dd-4fcc-8170-0bd7a5b14c8a",
+   definition     :         "hidden" : "0"
+   definition     :       },
+   definition     :       "layout" : null,
+   definition     :       "componentDefinitions" : [ {
+   definition     :         "resourceType" : "com.bmc.arsys.rx.services.view.domain.ViewComponentDefinition",
+   definition     :         "version" : null,
+   definition     :         "lastUpdateTime" : 1474198409750,
+   definition     :         "lastChangedBy" : "seth",
+   definition     :         "owner" : "seth",
+   definition     :         "name" : null,
+   definition     :         "tags" : null,
+   definition     :         "description" : null,
+   definition     :         "overlayGroupId" : null,
+   definition     :         "id" : "4a3b19cf-2f82-4b0d-b923-393de158be34",
+   definition     :         "type" : "rx-action",
+   definition     :         "propertiesByName" : {
+   definition     :           "name" : "rxSubmitViewAction",
+   definition     :           "index" : "0",
+   definition     :           "viewApi" : "${view.api}"
+   definition     :         }
+   definition     :       } ]
+   definition     :     } ]
+   definition     :   } ],
+   definition     :   "permissions" : [ {
+   definition     :     "ownerId" : {
+   definition     :       "value" : 0,
+   definition     :       "type" : "GROUP"
+   definition     :     },
+   definition     :     "type" : "VISIBLE"
+   definition     :   } ],
+   definition     :   "localizableStringsByComponentId" : null,
+   definition     :   "overlayDescriptor" : {
+   definition     :     "parentOverlayGroupId" : null
+   definition     :   },
+   definition     :   "allowOverlay" : false,
+   definition     :   "type" : "REGULAR"
+   definition     : }
+end
+begin view definition
+   name           : se.searchar.searcharlib:Utility - searchar form edit
+   definition     : {
+   definition     :   "version" : null,
+   definition     :   "lastUpdateTime" : 1474198508515,
+   definition     :   "lastChangedBy" : "seth",
+   definition     :   "owner" : "seth",
+   definition     :   "name" : "se.searchar.searcharlib:Utility - searchar form edit",
+   definition     :   "tags" : null,
+   definition     :   "description" : "",
+   definition     :   "overlayGroupId" : "1",
+   definition     :   "id" : "cbffee70-1044-4c57-b8b6-24724b5a19eb",
+   definition     :   "layout" : "{\"layoutTemplate\":1,\"columns\":[{\"children\":[{\"static\":true,\"role\":\"header\",\"height\":100,\"columns\":[{\"children\":[{\"componentDefinitionId\":\"ad897175-1f92-47ae-b350-45f686040a21\"}]}],\"componentDefinitionId\":\"2d859d59-a567-4d02-9ade-5e033d87924e\"},{\"static\":true,\"role\":\"content\",\"columns\":[{\"children\":[{\"componentDefinitionId\":\"8a20d312-e7d8-45e5-a224-b7bd444621da\",\"columns\":[{\"children\":[]}]},{\"componentDefinitionId\":\"432680b5-2201-494e-a024-d8c09300e091\",\"columns\":[{\"children\":[]}]}]}],\"componentDefinitionId\":\"dcf6c246-2f8c-4c63-b700-288358562693\"}]}],\"componentDefinitionId\":\"cbffee70-1044-4c57-b8b6-24724b5a19eb\"}",
+   definition     :   "inputParams" : [ {
+   definition     :     "name" : "searcharformID"
+   definition     :   } ],
+   definition     :   "outputParams" : [ ],
+   definition     :   "componentDefinitions" : [ {
+   definition     :     "resourceType" : "com.bmc.arsys.rx.services.view.domain.ContainerViewComponentDefinition",
+   definition     :     "version" : null,
+   definition     :     "lastUpdateTime" : 1474198616856,
+   definition     :     "lastChangedBy" : "seth",
+   definition     :     "owner" : "seth",
+   definition     :     "name" : null,
+   definition     :     "tags" : null,
+   definition     :     "description" : null,
+   definition     :     "overlayGroupId" : null,
+   definition     :     "id" : "8a20d312-e7d8-45e5-a224-b7bd444621da",
+   definition     :     "type" : "rx-container",
+   definition     :     "propertiesByName" : {
+   definition     :       "autoFill" : "false",
+   definition     :       "styles" : "",
+   definition     :       "columnCount" : "1",
+   definition     :       "hidden" : "0"
+   definition     :     },
+   definition     :     "layout" : "{\"componentDefinitionId\":\"0c401e28-e44a-492a-9e99-8c076629ff98\",\"columns\":[{\"children\":[{\"componentDefinitionId\":\"cf6165d0-dd0d-4b68-afb9-18958f9fdb41\"}],\"span\":12}],\"allowedTypes\":null}",
+   definition     :     "componentDefinitions" : [ {
+   definition     :       "resourceType" : "com.bmc.arsys.rx.services.view.domain.ContainerViewComponentDefinition",
+   definition     :       "version" : null,
+   definition     :       "lastUpdateTime" : 1474198616856,
+   definition     :       "lastChangedBy" : "seth",
+   definition     :       "owner" : "seth",
+   definition     :       "name" : null,
+   definition     :       "tags" : null,
+   definition     :       "description" : null,
+   definition     :       "overlayGroupId" : null,
+   definition     :       "id" : "cf6165d0-dd0d-4b68-afb9-18958f9fdb41",
+   definition     :       "type" : "rx-record-editor",
+   definition     :       "propertiesByName" : {
+   definition     :         "recordInstanceId" : "${view.inputParams.searcharformID}",
+   definition     :         "mode" : "EDIT",
+   definition     :         "autoFill" : "false",
+   definition     :         "recordDefinitionName" : "se.searchar.searcharlib:searchar_cfg_form"
+   definition     :       },
+   definition     :       "layout" : "{\"componentDefinitionId\":\"e622e54e-0835-4d98-b37f-a652cab18a6e\",\"columns\":[{\"children\":[{\"componentDefinitionId\":\"587b87a4-f629-4ec0-85e5-0b158959c74b\"},{\"componentDefinitionId\":\"5996c8bf-5d6a-44b4-8ce9-dff49dac982e\"}]}]}",
+   definition     :       "componentDefinitions" : [ {
+   definition     :         "resourceType" : "com.bmc.arsys.rx.services.view.domain.ViewComponentDefinition",
+   definition     :         "version" : null,
+   definition     :         "lastUpdateTime" : 1474198616856,
+   definition     :         "lastChangedBy" : "seth",
+   definition     :         "owner" : "seth",
+   definition     :         "name" : null,
+   definition     :         "tags" : null,
+   definition     :         "description" : null,
+   definition     :         "overlayGroupId" : null,
+   definition     :         "id" : "587b87a4-f629-4ec0-85e5-0b158959c74b",
+   definition     :         "type" : "rx-selection-field",
+   definition     :         "propertiesByName" : {
+   definition     :           "recordDefinition" : "${view.components.cf6165d0-dd0d-4b68-afb9-18958f9fdb41.recordDefinition}",
+   definition     :           "recordInstance" : "${view.components.cf6165d0-dd0d-4b68-afb9-18958f9fdb41.recordInstance}",
+   definition     :           "hidden" : "0",
+   definition     :           "disabled" : "0",
+   definition     :           "label" : "f24ac040-fc00-49fb-81a5-d95073d8970e",
+   definition     :           "fieldId" : "7"
+   definition     :         }
+   definition     :       }, {
+   definition     :         "resourceType" : "com.bmc.arsys.rx.services.view.domain.ViewComponentDefinition",
+   definition     :         "version" : null,
+   definition     :         "lastUpdateTime" : 1474198616856,
+   definition     :         "lastChangedBy" : "seth",
+   definition     :         "owner" : "seth",
+   definition     :         "name" : null,
+   definition     :         "tags" : null,
+   definition     :         "description" : null,
+   definition     :         "overlayGroupId" : null,
+   definition     :         "id" : "5996c8bf-5d6a-44b4-8ce9-dff49dac982e",
+   definition     :         "type" : "rx-character-field",
+   definition     :         "propertiesByName" : {
+   definition     :           "recordDefinition" : "${view.components.cf6165d0-dd0d-4b68-afb9-18958f9fdb41.recordDefinition}",
+   definition     :           "recordInstance" : "${view.components.cf6165d0-dd0d-4b68-afb9-18958f9fdb41.recordInstance}",
+   definition     :           "hidden" : "0",
+   definition     :           "disabled" : "0",
+   definition     :           "enableMultiSelection" : "false",
+   definition     :           "label" : "e5fdfcee-32a2-4bdf-bc00-ce422c887552",
+   definition     :           "fieldId" : "536870913"
+   definition     :         }
+   definition     :       } ]
+   definition     :     } ]
+   definition     :   }, {
+   definition     :     "resourceType" : "com.bmc.arsys.rx.services.view.domain.ContainerViewComponentDefinition",
+   definition     :     "version" : null,
+   definition     :     "lastUpdateTime" : 1474198616856,
+   definition     :     "lastChangedBy" : "seth",
+   definition     :     "owner" : "seth",
+   definition     :     "name" : null,
+   definition     :     "tags" : null,
+   definition     :     "description" : null,
+   definition     :     "overlayGroupId" : null,
+   definition     :     "id" : "432680b5-2201-494e-a024-d8c09300e091",
+   definition     :     "type" : "rx-container",
+   definition     :     "propertiesByName" : {
+   definition     :       "autoFill" : "false",
+   definition     :       "styles" : "",
+   definition     :       "columnCount" : "1",
+   definition     :       "hidden" : "0"
+   definition     :     },
+   definition     :     "layout" : "{\"componentDefinitionId\":\"e05bb453-adc6-4ff6-b75d-305c116b2924\",\"columns\":[{\"children\":[],\"span\":12}],\"allowedTypes\":null}",
+   definition     :     "componentDefinitions" : [ ]
+   definition     :   }, {
+   definition     :     "resourceType" : "com.bmc.arsys.rx.services.view.domain.ViewComponentDefinition",
+   definition     :     "version" : null,
+   definition     :     "lastUpdateTime" : 1474198616856,
+   definition     :     "lastChangedBy" : "seth",
+   definition     :     "owner" : "seth",
+   definition     :     "name" : null,
+   definition     :     "tags" : null,
+   definition     :     "description" : null,
+   definition     :     "overlayGroupId" : null,
+   definition     :     "id" : "ad897175-1f92-47ae-b350-45f686040a21",
+   definition     :     "type" : "rx-rich-text",
+   definition     :     "propertiesByName" : {
+   definition     :       "autoFill" : "false",
+   definition     :       "html" : "8a45eb8b-8b03-4632-bde0-288663000783",
+   definition     :       "hidden" : "0"
+   definition     :     }
+   definition     :   } ],
+   definition     :   "permissions" : [ {
+   definition     :     "ownerId" : {
+   definition     :       "value" : 0,
+   definition     :       "type" : "GROUP"
+   definition     :     },
+   definition     :     "type" : "VISIBLE"
+   definition     :   } ],
+   definition     :   "localizableStringsByComponentId" : null,
+   definition     :   "overlayDescriptor" : {
+   definition     :     "parentOverlayGroupId" : null
+   definition     :   },
+   definition     :   "allowOverlay" : false,
+   definition     :   "type" : "REGULAR"
+   definition     : }
+end
+begin view definition
+   name           : se.searchar.searcharlib:Utility - list searchar forms
+   definition     : {
+   definition     :   "version" : null,
+   definition     :   "lastUpdateTime" : 1474198736446,
+   definition     :   "lastChangedBy" : "seth",
+   definition     :   "owner" : "seth",
+   definition     :   "name" : "se.searchar.searcharlib:Utility - list searchar forms",
+   definition     :   "tags" : null,
+   definition     :   "description" : "",
+   definition     :   "overlayGroupId" : "1",
+   definition     :   "id" : "4a7d9447-7333-4ed7-b04d-cc096dc5b84f",
+   definition     :   "layout" : "{\"layoutTemplate\":1,\"columns\":[{\"children\":[{\"static\":true,\"role\":\"header\",\"height\":100,\"columns\":[{\"children\":[{\"componentDefinitionId\":\"2a1ad87d-1dfe-4be0-ab83-ba0d997a99fe\"}]}],\"componentDefinitionId\":\"2d859d59-a567-4d02-9ade-5e033d87924e\"},{\"static\":true,\"role\":\"content\",\"columns\":[{\"children\":[{\"componentDefinitionId\":\"bfc6fe07-47fd-4f24-a718-614cd641126b\",\"columns\":[{\"children\":[]}]}]}],\"componentDefinitionId\":\"dcf6c246-2f8c-4c63-b700-288358562693\"}]}],\"componentDefinitionId\":\"4a7d9447-7333-4ed7-b04d-cc096dc5b84f\"}",
+   definition     :   "inputParams" : [ ],
+   definition     :   "outputParams" : [ ],
+   definition     :   "componentDefinitions" : [ {
+   definition     :     "resourceType" : "com.bmc.arsys.rx.services.view.domain.ViewComponentDefinition",
+   definition     :     "version" : null,
+   definition     :     "lastUpdateTime" : 1474198736529,
+   definition     :     "lastChangedBy" : "seth",
+   definition     :     "owner" : "seth",
+   definition     :     "name" : null,
+   definition     :     "tags" : null,
+   definition     :     "description" : null,
+   definition     :     "overlayGroupId" : null,
+   definition     :     "id" : "2a1ad87d-1dfe-4be0-ab83-ba0d997a99fe",
+   definition     :     "type" : "rx-rich-text",
+   definition     :     "propertiesByName" : {
+   definition     :       "autoFill" : "false",
+   definition     :       "html" : "4246a15b-c128-451b-be39-323109ae3bf2",
+   definition     :       "hidden" : "0"
+   definition     :     }
+   definition     :   }, {
+   definition     :     "resourceType" : "com.bmc.arsys.rx.services.view.domain.ContainerViewComponentDefinition",
+   definition     :     "version" : null,
+   definition     :     "lastUpdateTime" : 1474198736529,
+   definition     :     "lastChangedBy" : "seth",
+   definition     :     "owner" : "seth",
+   definition     :     "name" : null,
+   definition     :     "tags" : null,
+   definition     :     "description" : null,
+   definition     :     "overlayGroupId" : null,
+   definition     :     "id" : "bfc6fe07-47fd-4f24-a718-614cd641126b",
+   definition     :     "type" : "rx-container",
+   definition     :     "propertiesByName" : {
+   definition     :       "autoFill" : "false",
+   definition     :       "styles" : "",
+   definition     :       "columnCount" : "1",
+   definition     :       "hidden" : "0"
+   definition     :     },
+   definition     :     "layout" : "{\"componentDefinitionId\":\"72ce17a2-05be-4391-89d3-828c1a9f1ac1\",\"columns\":[{\"children\":[{\"componentDefinitionId\":\"63f4e3e8-2ccc-4bc0-b836-ad585a499cec\"}],\"span\":12}]}",
+   definition     :     "componentDefinitions" : [ {
+   definition     :       "resourceType" : "com.bmc.arsys.rx.services.view.domain.ContainerViewComponentDefinition",
+   definition     :       "version" : null,
+   definition     :       "lastUpdateTime" : 1474198736529,
+   definition     :       "lastChangedBy" : "seth",
+   definition     :       "owner" : "seth",
+   definition     :       "name" : null,
+   definition     :       "tags" : null,
+   definition     :       "description" : null,
+   definition     :       "overlayGroupId" : null,
+   definition     :       "id" : "63f4e3e8-2ccc-4bc0-b836-ad585a499cec",
+   definition     :       "type" : "rx-record-grid",
+   definition     :       "propertiesByName" : {
+   definition     :         "autoFill" : "false",
+   definition     :         "filters" : "{}",
+   definition     :         "recordDefinitionName" : "se.searchar.searcharlib:searchar_cfg_form",
+   definition     :         "enableRowSelection" : "multiple",
+   definition     :         "enableFiltering" : "true"
+   definition     :       },
+   definition     :       "layout" : "{\"componentDefinitionId\":\"7d242b0e-fa2b-4635-8461-816dbc9381d3\",\"columns\":[{\"children\":[{\"componentDefinitionId\":\"0a5e0d13-d65c-4b9e-9861-4f06afbc57a6\"}]}]}",
+   definition     :       "componentDefinitions" : [ {
+   definition     :         "resourceType" : "com.bmc.arsys.rx.services.view.domain.ContainerViewComponentDefinition",
+   definition     :         "version" : null,
+   definition     :         "lastUpdateTime" : 1474198736530,
+   definition     :         "lastChangedBy" : "seth",
+   definition     :         "owner" : "seth",
+   definition     :         "name" : null,
+   definition     :         "tags" : null,
+   definition     :         "description" : null,
+   definition     :         "overlayGroupId" : null,
+   definition     :         "id" : "0a5e0d13-d65c-4b9e-9861-4f06afbc57a6",
+   definition     :         "type" : "rx-action-button",
+   definition     :         "propertiesByName" : {
+   definition     :           "style" : "primary",
+   definition     :           "disabled" : "0",
+   definition     :           "label" : "c4b07c35-6ccd-429b-b433-b43c9f9d23f7",
+   definition     :           "hidden" : "0"
+   definition     :         },
+   definition     :         "layout" : null,
+   definition     :         "componentDefinitions" : [ {
+   definition     :           "resourceType" : "com.bmc.arsys.rx.services.view.domain.ViewComponentDefinition",
+   definition     :           "version" : null,
+   definition     :           "lastUpdateTime" : 1474198736530,
+   definition     :           "lastChangedBy" : "seth",
+   definition     :           "owner" : "seth",
+   definition     :           "name" : null,
+   definition     :           "tags" : null,
+   definition     :           "description" : null,
+   definition     :           "overlayGroupId" : null,
+   definition     :           "id" : "a73ab1bd-6e76-4f25-bdad-a4ea529374ed",
+   definition     :           "type" : "rx-action",
+   definition     :           "propertiesByName" : {
+   definition     :             "presentation.title" : "Edit searchar form",
+   definition     :             "presentation.modalSize" : "medium",
+   definition     :             "presentation.type" : "dockedRightModal",
+   definition     :             "name" : "rxOpenViewAction",
+   definition     :             "index" : "0",
+   definition     :             "viewDefinitionName" : "se.searchar.searcharlib:Utility - searchar form edit",
+   definition     :             "viewParams.searcharformID" : "${view.components.63f4e3e8-2ccc-4bc0-b836-ad585a499cec.firstSelectedRow.379}"
+   definition     :           }
+   definition     :         } ]
+   definition     :       }, {
+   definition     :         "resourceType" : "com.bmc.arsys.rx.services.view.domain.ContainerViewComponentDefinition",
+   definition     :         "version" : null,
+   definition     :         "lastUpdateTime" : 1474198736530,
+   definition     :         "lastChangedBy" : "seth",
+   definition     :         "owner" : "seth",
+   definition     :         "name" : null,
+   definition     :         "tags" : null,
+   definition     :         "description" : null,
+   definition     :         "overlayGroupId" : null,
+   definition     :         "id" : "e1117162-087b-4ead-8453-0567e58d1441",
+   definition     :         "type" : "rx-record-grid-column",
+   definition     :         "propertiesByName" : {
+   definition     :           "filterable" : "true",
+   definition     :           "visible" : "true",
+   definition     :           "clickable" : "false",
+   definition     :           "sortable" : "true",
+   definition     :           "title" : "97e38b87-58c3-4fb2-bd75-b8836f34d50a",
+   definition     :           "fieldId" : "8"
+   definition     :         },
+   definition     :         "layout" : null,
+   definition     :         "componentDefinitions" : [ ]
+   definition     :       }, {
+   definition     :         "resourceType" : "com.bmc.arsys.rx.services.view.domain.ContainerViewComponentDefinition",
+   definition     :         "version" : null,
+   definition     :         "lastUpdateTime" : 1474198736530,
+   definition     :         "lastChangedBy" : "seth",
+   definition     :         "owner" : "seth",
+   definition     :         "name" : null,
+   definition     :         "tags" : null,
+   definition     :         "description" : null,
+   definition     :         "overlayGroupId" : null,
+   definition     :         "id" : "516e5e20-fbef-48df-a61c-1c896229341f",
+   definition     :         "type" : "rx-record-grid-column",
+   definition     :         "propertiesByName" : {
+   definition     :           "filterable" : "true",
+   definition     :           "visible" : "false",
+   definition     :           "clickable" : "false",
+   definition     :           "sortable" : "true",
+   definition     :           "title" : "93a95a13-ca3f-47a3-9de6-b061d9a6ca5e",
+   definition     :           "fieldId" : "379"
+   definition     :         },
+   definition     :         "layout" : null,
+   definition     :         "componentDefinitions" : [ ]
+   definition     :       }, {
+   definition     :         "resourceType" : "com.bmc.arsys.rx.services.view.domain.ContainerViewComponentDefinition",
+   definition     :         "version" : null,
+   definition     :         "lastUpdateTime" : 1474198736530,
+   definition     :         "lastChangedBy" : "seth",
+   definition     :         "owner" : "seth",
+   definition     :         "name" : null,
+   definition     :         "tags" : null,
+   definition     :         "description" : null,
+   definition     :         "overlayGroupId" : null,
+   definition     :         "id" : "18a47f20-300e-44b6-bf6c-bb32c302a746",
+   definition     :         "type" : "rx-record-grid-column",
+   definition     :         "propertiesByName" : {
+   definition     :           "filterable" : "true",
+   definition     :           "visible" : "true",
+   definition     :           "clickable" : "false",
+   definition     :           "sortable" : "true",
+   definition     :           "title" : "2084a780-1d08-4acb-b334-c11eb2536e73",
+   definition     :           "fieldId" : "536870913"
+   definition     :         },
+   definition     :         "layout" : null,
+   definition     :         "componentDefinitions" : [ ]
+   definition     :       } ]
+   definition     :     } ]
+   definition     :   } ],
+   definition     :   "permissions" : [ {
+   definition     :     "ownerId" : {
+   definition     :       "value" : 0,
+   definition     :       "type" : "GROUP"
+   definition     :     },
+   definition     :     "type" : "VISIBLE"
+   definition     :   } ],
+   definition     :   "localizableStringsByComponentId" : null,
+   definition     :   "overlayDescriptor" : {
+   definition     :     "parentOverlayGroupId" : null
+   definition     :   },
+   definition     :   "allowOverlay" : false,
+   definition     :   "type" : "REGULAR"
+   definition     : }
+end
+begin named list definition
+   name           : se.searchar.searcharlib:Searcarh Servers
+   definition     : {
+   definition     :   "version" : null,
+   definition     :   "lastUpdateTime" : 1474197751159,
+   definition     :   "lastChangedBy" : "seth",
+   definition     :   "owner" : "seth",
+   definition     :   "name" : "se.searchar.searcharlib:Searcarh Servers",
+   definition     :   "tags" : null,
+   definition     :   "description" : null,
+   definition     :   "overlayGroupId" : "1",
+   definition     :   "recordDefinitionName" : "se.searchar.searcharlib:searchar_cfg_server",
+   definition     :   "queryCriteria" : null,
+   definition     :   "labelFieldId" : 536870913,
+   definition     :   "valueFieldId" : 536870913,
+   definition     :   "shouldSortOnLabel" : false,
+   definition     :   "overlayDescriptor" : null
+   definition     : }
+end
+begin association definition
+   name           : se.searchar.searcharlib:Form_Field_association
+   definition     : {
+   definition     :   "version" : null,
+   definition     :   "lastUpdateTime" : 1474197708859,
+   definition     :   "lastChangedBy" : "seth",
+   definition     :   "owner" : "seth",
+   definition     :   "name" : "se.searchar.searcharlib:Form_Field_association",
+   definition     :   "tags" : null,
+   definition     :   "description" : null,
+   definition     :   "overlayGroupId" : "1",
+   definition     :   "guid" : "46cb1391-5ef3-4b66-ae40-a28285bb75fc",
+   definition     :   "nodeAId" : "se.searchar.searcharlib:searchar_cfg_form",
+   definition     :   "nodeBId" : "se.searchar.searcharlib:searchar_cfg_field",
+   definition     :   "nodeAName" : "Form",
+   definition     :   "nodeBName" : "Field",
+   definition     :   "shouldCascadeDelete" : true,
+   definition     :   "cardinality" : "ONE_TO_MANY",
+   definition     :   "nodeAKeys" : [ 379 ],
+   definition     :   "nodeBKeys" : [ 536870913 ],
+   definition     :   "isEnabled" : true,
+   definition     :   "overlayDescriptor" : null
+   definition     : }
+end
+begin record definition
+   name           : se.searchar.searcharlib:searchar_cfg_server
+   definition     : {
+   definition     :   "resourceType" : "com.bmc.arsys.rx.services.record.domain.RegularRecordDefinition",
+   definition     :   "version" : "0",
+   definition     :   "lastUpdateTime" : 1474197540773,
+   definition     :   "lastChangedBy" : "seth",
+   definition     :   "owner" : "seth",
+   definition     :   "name" : "se.searchar.searcharlib:searchar_cfg_server",
+   definition     :   "tags" : null,
+   definition     :   "description" : null,
+   definition     :   "overlayGroupId" : "1",
+   definition     :   "fieldDefinitions" : [ {
+   definition     :     "resourceType" : "com.bmc.arsys.rx.standardlib.record.CharacterFieldDefinition",
+   definition     :     "version" : null,
+   definition     :     "lastUpdateTime" : 1474197539859,
+   definition     :     "lastChangedBy" : "seth",
+   definition     :     "owner" : "seth",
+   definition     :     "name" : "Display ID",
+   definition     :     "tags" : null,
+   definition     :     "description" : null,
+   definition     :     "overlayGroupId" : "1",
+   definition     :     "id" : 1,
+   definition     :     "fieldOption" : "SYSTEM",
+   definition     :     "permissions" : [ {
+   definition     :       "ownerId" : {
+   definition     :         "value" : 0,
+   definition     :         "type" : "GROUP"
+   definition     :       },
+   definition     :       "type" : "VIEW"
+   definition     :     }, {
+   definition     :       "ownerId" : {
+   definition     :         "value" : 4,
+   definition     :         "type" : "GROUP"
+   definition     :       },
+   definition     :       "type" : "VIEW"
+   definition     :     }, {
+   definition     :       "ownerId" : {
+   definition     :         "value" : 3,
+   definition     :         "type" : "GROUP"
+   definition     :       },
+   definition     :       "type" : "VIEW"
+   definition     :     } ],
+   definition     :     "fieldTypeName" : null,
+   definition     :     "isInherited" : false,
+   definition     :     "explicitPermissions" : [ {
+   definition     :       "ownerId" : {
+   definition     :         "value" : 0,
+   definition     :         "type" : "GROUP"
+   definition     :       },
+   definition     :       "type" : "VIEW"
+   definition     :     }, {
+   definition     :       "ownerId" : {
+   definition     :         "value" : 4,
+   definition     :         "type" : "GROUP"
+   definition     :       },
+   definition     :       "type" : "VIEW"
+   definition     :     }, {
+   definition     :       "ownerId" : {
+   definition     :         "value" : 3,
+   definition     :         "type" : "GROUP"
+   definition     :       },
+   definition     :       "type" : "VIEW"
+   definition     :     } ],
+   definition     :     "overlayDescriptor" : null,
+   definition     :     "fieldMapping" : null,
+   definition     :     "allowPermissionsOverlay" : false,
+   definition     :     "allowOtherPropertiesOverlay" : false,
+   definition     :     "maxLength" : 15,
+   definition     :     "defaultValue" : "",
+   definition     :     "searchDefinition" : null,
+   definition     :     "namedListDefinition" : null,
+   definition     :     "shouldPersistEncrypted" : false,
+   definition     :     "anyUserAllowedToSubmit" : false
+   definition     :   }, {
+   definition     :     "resourceType" : "com.bmc.arsys.rx.standardlib.record.CharacterFieldDefinition",
+   definition     :     "version" : null,
+   definition     :     "lastUpdateTime" : 1474197539859,
+   definition     :     "lastChangedBy" : "seth",
+   definition     :     "owner" : "seth",
+   definition     :     "name" : "Created By",
+   definition     :     "tags" : null,
+   definition     :     "description" : null,
+   definition     :     "overlayGroupId" : "1",
+   definition     :     "id" : 2,
+   definition     :     "fieldOption" : "REQUIRED",
+   definition     :     "permissions" : [ {
+   definition     :       "ownerId" : {
+   definition     :         "value" : 4,
+   definition     :         "type" : "GROUP"
+   definition     :       },
+   definition     :       "type" : "VIEW"
+   definition     :     }, {
+   definition     :       "ownerId" : {
+   definition     :         "value" : 3,
+   definition     :         "type" : "GROUP"
+   definition     :       },
+   definition     :       "type" : "VIEW"
+   definition     :     } ],
+   definition     :     "fieldTypeName" : null,
+   definition     :     "isInherited" : false,
+   definition     :     "explicitPermissions" : [ {
+   definition     :       "ownerId" : {
+   definition     :         "value" : 4,
+   definition     :         "type" : "GROUP"
+   definition     :       },
+   definition     :       "type" : "VIEW"
+   definition     :     }, {
+   definition     :       "ownerId" : {
+   definition     :         "value" : 3,
+   definition     :         "type" : "GROUP"
+   definition     :       },
+   definition     :       "type" : "VIEW"
+   definition     :     } ],
+   definition     :     "overlayDescriptor" : null,
+   definition     :     "fieldMapping" : null,
+   definition     :     "allowPermissionsOverlay" : false,
+   definition     :     "allowOtherPropertiesOverlay" : false,
+   definition     :     "maxLength" : 254,
+   definition     :     "defaultValue" : "$USER$",
+   definition     :     "searchDefinition" : null,
+   definition     :     "namedListDefinition" : null,
+   definition     :     "shouldPersistEncrypted" : false,
+   definition     :     "anyUserAllowedToSubmit" : true
+   definition     :   }, {
+   definition     :     "resourceType" : "com.bmc.arsys.rx.standardlib.record.DateTimeFieldDefinition",
+   definition     :     "version" : null,
+   definition     :     "lastUpdateTime" : 1474197539859,
+   definition     :     "lastChangedBy" : "seth",
+   definition     :     "owner" : "seth",
+   definition     :     "name" : "Created Date",
+   definition     :     "tags" : null,
+   definition     :     "description" : null,
+   definition     :     "overlayGroupId" : "1",
+   definition     :     "id" : 3,
+   definition     :     "fieldOption" : "SYSTEM",
+   definition     :     "permissions" : [ {
+   definition     :       "ownerId" : {
+   definition     :         "value" : 4,
+   definition     :         "type" : "GROUP"
+   definition     :       },
+   definition     :       "type" : "VIEW"
+   definition     :     }, {
+   definition     :       "ownerId" : {
+   definition     :         "value" : 3,
+   definition     :         "type" : "GROUP"
+   definition     :       },
+   definition     :       "type" : "VIEW"
+   definition     :     } ],
+   definition     :     "fieldTypeName" : null,
+   definition     :     "isInherited" : false,
+   definition     :     "explicitPermissions" : [ {
+   definition     :       "ownerId" : {
+   definition     :         "value" : 4,
+   definition     :         "type" : "GROUP"
+   definition     :       },
+   definition     :       "type" : "VIEW"
+   definition     :     }, {
+   definition     :       "ownerId" : {
+   definition     :         "value" : 3,
+   definition     :         "type" : "GROUP"
+   definition     :       },
+   definition     :       "type" : "VIEW"
+   definition     :     } ],
+   definition     :     "overlayDescriptor" : null,
+   definition     :     "fieldMapping" : null,
+   definition     :     "allowPermissionsOverlay" : false,
+   definition     :     "allowOtherPropertiesOverlay" : false,
+   definition     :     "defaultValue" : null,
+   definition     :     "anyUserAllowedToSubmit" : false
+   definition     :   }, {
+   definition     :     "resourceType" : "com.bmc.arsys.rx.standardlib.record.CharacterFieldDefinition",
+   definition     :     "version" : null,
+   definition     :     "lastUpdateTime" : 1474197539859,
+   definition     :     "lastChangedBy" : "seth",
+   definition     :     "owner" : "seth",
+   definition     :     "name" : "Assignee",
+   definition     :     "tags" : null,
+   definition     :     "description" : null,
+   definition     :     "overlayGroupId" : "1",
+   definition     :     "id" : 4,
+   definition     :     "fieldOption" : "OPTIONAL",
+   definition     :     "permissions" : [ {
+   definition     :       "ownerId" : {
+   definition     :         "value" : 4,
+   definition     :         "type" : "GROUP"
+   definition     :       },
+   definition     :       "type" : "VIEW"
+   definition     :     } ],
+   definition     :     "fieldTypeName" : null,
+   definition     :     "isInherited" : false,
+   definition     :     "explicitPermissions" : [ {
+   definition     :       "ownerId" : {
+   definition     :         "value" : 4,
+   definition     :         "type" : "GROUP"
+   definition     :       },
+   definition     :       "type" : "VIEW"
+   definition     :     } ],
+   definition     :     "overlayDescriptor" : null,
+   definition     :     "fieldMapping" : null,
+   definition     :     "allowPermissionsOverlay" : false,
+   definition     :     "allowOtherPropertiesOverlay" : false,
+   definition     :     "maxLength" : 254,
+   definition     :     "defaultValue" : null,
+   definition     :     "searchDefinition" : null,
+   definition     :     "namedListDefinition" : null,
+   definition     :     "shouldPersistEncrypted" : false,
+   definition     :     "anyUserAllowedToSubmit" : false
+   definition     :   }, {
+   definition     :     "resourceType" : "com.bmc.arsys.rx.standardlib.record.CharacterFieldDefinition",
+   definition     :     "version" : null,
+   definition     :     "lastUpdateTime" : 1474197539859,
+   definition     :     "lastChangedBy" : "seth",
+   definition     :     "owner" : "seth",
+   definition     :     "name" : "Modified By",
+   definition     :     "tags" : null,
+   definition     :     "description" : null,
+   definition     :     "overlayGroupId" : "1",
+   definition     :     "id" : 5,
+   definition     :     "fieldOption" : "SYSTEM",
+   definition     :     "permissions" : [ {
+   definition     :       "ownerId" : {
+   definition     :         "value" : 4,
+   definition     :         "type" : "GROUP"
+   definition     :       },
+   definition     :       "type" : "VIEW"
+   definition     :     } ],
+   definition     :     "fieldTypeName" : null,
+   definition     :     "isInherited" : false,
+   definition     :     "explicitPermissions" : [ {
+   definition     :       "ownerId" : {
+   definition     :         "value" : 4,
+   definition     :         "type" : "GROUP"
+   definition     :       },
+   definition     :       "type" : "VIEW"
+   definition     :     } ],
+   definition     :     "overlayDescriptor" : null,
+   definition     :     "fieldMapping" : null,
+   definition     :     "allowPermissionsOverlay" : false,
+   definition     :     "allowOtherPropertiesOverlay" : false,
+   definition     :     "maxLength" : 254,
+   definition     :     "defaultValue" : null,
+   definition     :     "searchDefinition" : null,
+   definition     :     "namedListDefinition" : null,
+   definition     :     "shouldPersistEncrypted" : false,
+   definition     :     "anyUserAllowedToSubmit" : false
+   definition     :   }, {
+   definition     :     "resourceType" : "com.bmc.arsys.rx.standardlib.record.DateTimeFieldDefinition",
+   definition     :     "version" : null,
+   definition     :     "lastUpdateTime" : 1474197539859,
+   definition     :     "lastChangedBy" : "seth",
+   definition     :     "owner" : "seth",
+   definition     :     "name" : "Modified Date",
+   definition     :     "tags" : null,
+   definition     :     "description" : null,
+   definition     :     "overlayGroupId" : "1",
+   definition     :     "id" : 6,
+   definition     :     "fieldOption" : "SYSTEM",
+   definition     :     "permissions" : [ {
+   definition     :       "ownerId" : {
+   definition     :         "value" : 4,
+   definition     :         "type" : "GROUP"
+   definition     :       },
+   definition     :       "type" : "VIEW"
+   definition     :     } ],
+   definition     :     "fieldTypeName" : null,
+   definition     :     "isInherited" : false,
+   definition     :     "explicitPermissions" : [ {
+   definition     :       "ownerId" : {
+   definition     :         "value" : 4,
+   definition     :         "type" : "GROUP"
+   definition     :       },
+   definition     :       "type" : "VIEW"
+   definition     :     } ],
+   definition     :     "overlayDescriptor" : null,
+   definition     :     "fieldMapping" : null,
+   definition     :     "allowPermissionsOverlay" : false,
+   definition     :     "allowOtherPropertiesOverlay" : false,
+   definition     :     "defaultValue" : null,
+   definition     :     "anyUserAllowedToSubmit" : false
+   definition     :   }, {
+   definition     :     "resourceType" : "com.bmc.arsys.rx.standardlib.record.SelectionFieldDefinition",
+   definition     :     "version" : null,
+   definition     :     "lastUpdateTime" : 1474197539859,
+   definition     :     "lastChangedBy" : "seth",
+   definition     :     "owner" : "seth",
+   definition     :     "name" : "Status",
+   definition     :     "tags" : null,
+   definition     :     "description" : null,
+   definition     :     "overlayGroupId" : "1",
+   definition     :     "id" : 7,
+   definition     :     "fieldOption" : "REQUIRED",
+   definition     :     "permissions" : [ {
+   definition     :       "ownerId" : {
+   definition     :         "value" : 4,
+   definition     :         "type" : "GROUP"
+   definition     :       },
+   definition     :       "type" : "CHANGE"
+   definition     :     }, {
+   definition     :       "ownerId" : {
+   definition     :         "value" : 3,
+   definition     :         "type" : "GROUP"
+   definition     :       },
+   definition     :       "type" : "VIEW"
+   definition     :     } ],
+   definition     :     "fieldTypeName" : null,
+   definition     :     "isInherited" : false,
+   definition     :     "explicitPermissions" : [ {
+   definition     :       "ownerId" : {
+   definition     :         "value" : 4,
+   definition     :         "type" : "GROUP"
+   definition     :       },
+   definition     :       "type" : "CHANGE"
+   definition     :     }, {
+   definition     :       "ownerId" : {
+   definition     :         "value" : 3,
+   definition     :         "type" : "GROUP"
+   definition     :       },
+   definition     :       "type" : "VIEW"
+   definition     :     } ],
+   definition     :     "overlayDescriptor" : null,
+   definition     :     "fieldMapping" : null,
+   definition     :     "allowPermissionsOverlay" : false,
+   definition     :     "allowOtherPropertiesOverlay" : false,
+   definition     :     "optionNamesById" : {
+   definition     :       "0" : "New",
+   definition     :       "1" : "Assigned",
+   definition     :       "2" : "Fixed",
+   definition     :       "3" : "Rejected",
+   definition     :       "4" : "Closed"
+   definition     :     },
+   definition     :     "displayType" : null,
+   definition     :     "defaultValue" : "0",
+   definition     :     "anyUserAllowedToSubmit" : false
+   definition     :   }, {
+   definition     :     "resourceType" : "com.bmc.arsys.rx.standardlib.record.CharacterFieldDefinition",
+   definition     :     "version" : null,
+   definition     :     "lastUpdateTime" : 1474197539859,
+   definition     :     "lastChangedBy" : "seth",
+   definition     :     "owner" : "seth",
+   definition     :     "name" : "Description",
+   definition     :     "tags" : null,
+   definition     :     "description" : null,
+   definition     :     "overlayGroupId" : "1",
+   definition     :     "id" : 8,
+   definition     :     "fieldOption" : "REQUIRED",
+   definition     :     "permissions" : [ {
+   definition     :       "ownerId" : {
+   definition     :         "value" : 4,
+   definition     :         "type" : "GROUP"
+   definition     :       },
+   definition     :       "type" : "VIEW"
+   definition     :     }, {
+   definition     :       "ownerId" : {
+   definition     :         "value" : 3,
+   definition     :         "type" : "GROUP"
+   definition     :       },
+   definition     :       "type" : "VIEW"
+   definition     :     } ],
+   definition     :     "fieldTypeName" : null,
+   definition     :     "isInherited" : false,
+   definition     :     "explicitPermissions" : [ {
+   definition     :       "ownerId" : {
+   definition     :         "value" : 4,
+   definition     :         "type" : "GROUP"
+   definition     :       },
+   definition     :       "type" : "VIEW"
+   definition     :     }, {
+   definition     :       "ownerId" : {
+   definition     :         "value" : 3,
+   definition     :         "type" : "GROUP"
+   definition     :       },
+   definition     :       "type" : "VIEW"
+   definition     :     } ],
+   definition     :     "overlayDescriptor" : null,
+   definition     :     "fieldMapping" : null,
+   definition     :     "allowPermissionsOverlay" : false,
+   definition     :     "allowOtherPropertiesOverlay" : false,
+   definition     :     "maxLength" : 254,
+   definition     :     "defaultValue" : "se.searchar.searcharlib:searchar_cfg_server",
+   definition     :     "searchDefinition" : null,
+   definition     :     "namedListDefinition" : null,
+   definition     :     "shouldPersistEncrypted" : false,
+   definition     :     "anyUserAllowedToSubmit" : true
+   definition     :   }, {
+   definition     :     "resourceType" : "com.bmc.arsys.rx.standardlib.record.SelectionFieldDefinition",
+   definition     :     "version" : null,
+   definition     :     "lastUpdateTime" : 1474197539859,
+   definition     :     "lastChangedBy" : "seth",
+   definition     :     "owner" : "seth",
+   definition     :     "name" : "Notifier Listening",
+   definition     :     "tags" : null,
+   definition     :     "description" : null,
+   definition     :     "overlayGroupId" : "1",
+   definition     :     "id" : 16,
+   definition     :     "fieldOption" : "SYSTEM",
+   definition     :     "permissions" : [ {
+   definition     :       "ownerId" : {
+   definition     :         "value" : 4,
+   definition     :         "type" : "GROUP"
+   definition     :       },
+   definition     :       "type" : "VIEW"
+   definition     :     }, {
+   definition     :       "ownerId" : {
+   definition     :         "value" : 3,
+   definition     :         "type" : "GROUP"
+   definition     :       },
+   definition     :       "type" : "VIEW"
+   definition     :     } ],
+   definition     :     "fieldTypeName" : null,
+   definition     :     "isInherited" : false,
+   definition     :     "explicitPermissions" : [ {
+   definition     :       "ownerId" : {
+   definition     :         "value" : 4,
+   definition     :         "type" : "GROUP"
+   definition     :       },
+   definition     :       "type" : "VIEW"
+   definition     :     }, {
+   definition     :       "ownerId" : {
+   definition     :         "value" : 3,
+   definition     :         "type" : "GROUP"
+   definition     :       },
+   definition     :       "type" : "VIEW"
+   definition     :     } ],
+   definition     :     "overlayDescriptor" : null,
+   definition     :     "fieldMapping" : null,
+   definition     :     "allowPermissionsOverlay" : false,
+   definition     :     "allowOtherPropertiesOverlay" : false,
+   definition     :     "optionNamesById" : {
+   definition     :       "0" : "Not Listening",
+   definition     :       "1" : "Listening"
+   definition     :     },
+   definition     :     "displayType" : null,
+   definition     :     "defaultValue" : "0",
+   definition     :     "anyUserAllowedToSubmit" : false
+   definition     :   }, {
+   definition     :     "resourceType" : "com.bmc.arsys.rx.standardlib.record.CharacterFieldDefinition",
+   definition     :     "version" : null,
+   definition     :     "lastUpdateTime" : 1474197539859,
+   definition     :     "lastChangedBy" : "seth",
+   definition     :     "owner" : "seth",
+   definition     :     "name" : "GUID",
+   definition     :     "tags" : null,
+   definition     :     "description" : null,
+   definition     :     "overlayGroupId" : "1",
+   definition     :     "id" : 179,
+   definition     :     "fieldOption" : "OPTIONAL",
+   definition     :     "permissions" : [ {
+   definition     :       "ownerId" : {
+   definition     :         "value" : 0,
+   definition     :         "type" : "GROUP"
+   definition     :       },
+   definition     :       "type" : "VIEW"
+   definition     :     } ],
+   definition     :     "fieldTypeName" : null,
+   definition     :     "isInherited" : false,
+   definition     :     "explicitPermissions" : [ {
+   definition     :       "ownerId" : {
+   definition     :         "value" : 0,
+   definition     :         "type" : "GROUP"
+   definition     :       },
+   definition     :       "type" : "VIEW"
+   definition     :     } ],
+   definition     :     "overlayDescriptor" : null,
+   definition     :     "fieldMapping" : null,
+   definition     :     "allowPermissionsOverlay" : false,
+   definition     :     "allowOtherPropertiesOverlay" : false,
+   definition     :     "maxLength" : 38,
+   definition     :     "defaultValue" : null,
+   definition     :     "searchDefinition" : null,
+   definition     :     "namedListDefinition" : null,
+   definition     :     "shouldPersistEncrypted" : false,
+   definition     :     "anyUserAllowedToSubmit" : true
+   definition     :   }, {
+   definition     :     "resourceType" : "com.bmc.arsys.rx.standardlib.record.CharacterFieldDefinition",
+   definition     :     "version" : null,
+   definition     :     "lastUpdateTime" : 1474197539859,
+   definition     :     "lastChangedBy" : "seth",
+   definition     :     "owner" : "seth",
+   definition     :     "name" : "ID",
+   definition     :     "tags" : null,
+   definition     :     "description" : null,
+   definition     :     "overlayGroupId" : "1",
+   definition     :     "id" : 379,
+   definition     :     "fieldOption" : "OPTIONAL",
+   definition     :     "permissions" : [ {
+   definition     :       "ownerId" : {
+   definition     :         "value" : 0,
+   definition     :         "type" : "GROUP"
+   definition     :       },
+   definition     :       "type" : "VIEW"
+   definition     :     } ],
+   definition     :     "fieldTypeName" : null,
+   definition     :     "isInherited" : false,
+   definition     :     "explicitPermissions" : [ {
+   definition     :       "ownerId" : {
+   definition     :         "value" : 0,
+   definition     :         "type" : "GROUP"
+   definition     :       },
+   definition     :       "type" : "VIEW"
+   definition     :     } ],
+   definition     :     "overlayDescriptor" : null,
+   definition     :     "fieldMapping" : null,
+   definition     :     "allowPermissionsOverlay" : false,
+   definition     :     "allowOtherPropertiesOverlay" : false,
+   definition     :     "maxLength" : 38,
+   definition     :     "defaultValue" : null,
+   definition     :     "searchDefinition" : null,
+   definition     :     "namedListDefinition" : null,
+   definition     :     "shouldPersistEncrypted" : false,
+   definition     :     "anyUserAllowedToSubmit" : true
+   definition     :   }, {
+   definition     :     "resourceType" : "com.bmc.arsys.rx.standardlib.record.CharacterFieldDefinition",
+   definition     :     "version" : null,
+   definition     :     "lastUpdateTime" : 1474197540773,
+   definition     :     "lastChangedBy" : "seth",
+   definition     :     "owner" : "seth",
+   definition     :     "name" : "Server Name",
+   definition     :     "tags" : null,
+   definition     :     "description" : null,
+   definition     :     "overlayGroupId" : "1",
+   definition     :     "id" : 536870913,
+   definition     :     "fieldOption" : "OPTIONAL",
+   definition     :     "permissions" : null,
+   definition     :     "fieldTypeName" : "com.bmc.arsys.rx.services.record.domain.DefaultFieldType",
+   definition     :     "isInherited" : false,
+   definition     :     "explicitPermissions" : null,
+   definition     :     "overlayDescriptor" : null,
+   definition     :     "fieldMapping" : null,
+   definition     :     "allowPermissionsOverlay" : false,
+   definition     :     "allowOtherPropertiesOverlay" : false,
+   definition     :     "maxLength" : 254,
+   definition     :     "defaultValue" : null,
+   definition     :     "searchDefinition" : null,
+   definition     :     "namedListDefinition" : null,
+   definition     :     "shouldPersistEncrypted" : false,
+   definition     :     "anyUserAllowedToSubmit" : false
+   definition     :   } ],
+   definition     :   "recordInstancePrefix" : "",
+   definition     :   "permissions" : [ ],
+   definition     :   "securityLabels" : [ ],
+   definition     :   "rowSecurityPropagations" : null,
+   definition     :   "recordTypeName" : "com.bmc.arsys.rx.services.record.domain.DefaultRecordType",
+   definition     :   "weightedRelevancyFields" : null,
+   definition     :   "shouldExportData" : false,
+   definition     :   "fullPermissions" : [ ],
+   definition     :   "overlayDescriptor" : null,
+   definition     :   "allowPermissionsOverlay" : false,
+   definition     :   "allowOtherPropertiesOverlay" : false,
+   definition     :   "allowIndexesOverlay" : false,
+   definition     :   "allowFieldsOverlay" : false,
+   definition     :   "allowNonAdminToDeleteRecordInstances" : false,
+   definition     :   "indexDefinitions" : [ {
+   definition     :     "indexName" : "I1055_179_T1055",
+   definition     :     "unique" : true,
+   definition     :     "indexFieldIds" : [ 179 ]
+   definition     :   } ],
+   definition     :   "inheritanceDescriptor" : null,
+   definition     :   "isSharedInstanceStorage" : false,
+   definition     :   "isAbstract" : false,
+   definition     :   "isFinal" : false
+   definition     : }
+end
+begin record definition
+   name           : se.searchar.searcharlib:searchar_cfg_form
+   definition     : {
+   definition     :   "resourceType" : "com.bmc.arsys.rx.services.record.domain.RegularRecordDefinition",
+   definition     :   "version" : "0",
+   definition     :   "lastUpdateTime" : 1474197809791,
+   definition     :   "lastChangedBy" : "seth",
+   definition     :   "owner" : "seth",
+   definition     :   "name" : "se.searchar.searcharlib:searchar_cfg_form",
+   definition     :   "tags" : null,
+   definition     :   "description" : null,
+   definition     :   "overlayGroupId" : "1",
+   definition     :   "fieldDefinitions" : [ {
+   definition     :     "resourceType" : "com.bmc.arsys.rx.standardlib.record.CharacterFieldDefinition",
+   definition     :     "version" : null,
+   definition     :     "lastUpdateTime" : 1474197809791,
+   definition     :     "lastChangedBy" : "seth",
+   definition     :     "owner" : "seth",
+   definition     :     "name" : "Display ID",
+   definition     :     "tags" : null,
+   definition     :     "description" : null,
+   definition     :     "overlayGroupId" : "1",
+   definition     :     "id" : 1,
+   definition     :     "fieldOption" : "SYSTEM",
+   definition     :     "permissions" : [ {
+   definition     :       "ownerId" : {
+   definition     :         "value" : 0,
+   definition     :         "type" : "GROUP"
+   definition     :       },
+   definition     :       "type" : "VIEW"
+   definition     :     }, {
+   definition     :       "ownerId" : {
+   definition     :         "value" : 4,
+   definition     :         "type" : "GROUP"
+   definition     :       },
+   definition     :       "type" : "VIEW"
+   definition     :     }, {
+   definition     :       "ownerId" : {
+   definition     :         "value" : 3,
+   definition     :         "type" : "GROUP"
+   definition     :       },
+   definition     :       "type" : "VIEW"
+   definition     :     } ],
+   definition     :     "fieldTypeName" : null,
+   definition     :     "isInherited" : false,
+   definition     :     "explicitPermissions" : [ {
+   definition     :       "ownerId" : {
+   definition     :         "value" : 0,
+   definition     :         "type" : "GROUP"
+   definition     :       },
+   definition     :       "type" : "VIEW"
+   definition     :     }, {
+   definition     :       "ownerId" : {
+   definition     :         "value" : 4,
+   definition     :         "type" : "GROUP"
+   definition     :       },
+   definition     :       "type" : "VIEW"
+   definition     :     }, {
+   definition     :       "ownerId" : {
+   definition     :         "value" : 3,
+   definition     :         "type" : "GROUP"
+   definition     :       },
+   definition     :       "type" : "VIEW"
+   definition     :     } ],
+   definition     :     "overlayDescriptor" : null,
+   definition     :     "fieldMapping" : null,
+   definition     :     "allowPermissionsOverlay" : false,
+   definition     :     "allowOtherPropertiesOverlay" : false,
+   definition     :     "maxLength" : 15,
+   definition     :     "defaultValue" : "",
+   definition     :     "searchDefinition" : null,
+   definition     :     "namedListDefinition" : null,
+   definition     :     "shouldPersistEncrypted" : false,
+   definition     :     "anyUserAllowedToSubmit" : false
+   definition     :   }, {
+   definition     :     "resourceType" : "com.bmc.arsys.rx.standardlib.record.CharacterFieldDefinition",
+   definition     :     "version" : null,
+   definition     :     "lastUpdateTime" : 1474197809791,
+   definition     :     "lastChangedBy" : "seth",
+   definition     :     "owner" : "seth",
+   definition     :     "name" : "Created By",
+   definition     :     "tags" : null,
+   definition     :     "description" : null,
+   definition     :     "overlayGroupId" : "1",
+   definition     :     "id" : 2,
+   definition     :     "fieldOption" : "REQUIRED",
+   definition     :     "permissions" : [ {
+   definition     :       "ownerId" : {
+   definition     :         "value" : 4,
+   definition     :         "type" : "GROUP"
+   definition     :       },
+   definition     :       "type" : "VIEW"
+   definition     :     }, {
+   definition     :       "ownerId" : {
+   definition     :         "value" : 3,
+   definition     :         "type" : "GROUP"
+   definition     :       },
+   definition     :       "type" : "VIEW"
+   definition     :     } ],
+   definition     :     "fieldTypeName" : null,
+   definition     :     "isInherited" : false,
+   definition     :     "explicitPermissions" : [ {
+   definition     :       "ownerId" : {
+   definition     :         "value" : 4,
+   definition     :         "type" : "GROUP"
+   definition     :       },
+   definition     :       "type" : "VIEW"
+   definition     :     }, {
+   definition     :       "ownerId" : {
+   definition     :         "value" : 3,
+   definition     :         "type" : "GROUP"
+   definition     :       },
+   definition     :       "type" : "VIEW"
+   definition     :     } ],
+   definition     :     "overlayDescriptor" : null,
+   definition     :     "fieldMapping" : null,
+   definition     :     "allowPermissionsOverlay" : false,
+   definition     :     "allowOtherPropertiesOverlay" : false,
+   definition     :     "maxLength" : 254,
+   definition     :     "defaultValue" : "$USER$",
+   definition     :     "searchDefinition" : null,
+   definition     :     "namedListDefinition" : null,
+   definition     :     "shouldPersistEncrypted" : false,
+   definition     :     "anyUserAllowedToSubmit" : true
+   definition     :   }, {
+   definition     :     "resourceType" : "com.bmc.arsys.rx.standardlib.record.DateTimeFieldDefinition",
+   definition     :     "version" : null,
+   definition     :     "lastUpdateTime" : 1474197809791,
+   definition     :     "lastChangedBy" : "seth",
+   definition     :     "owner" : "seth",
+   definition     :     "name" : "Created Date",
+   definition     :     "tags" : null,
+   definition     :     "description" : null,
+   definition     :     "overlayGroupId" : "1",
+   definition     :     "id" : 3,
+   definition     :     "fieldOption" : "SYSTEM",
+   definition     :     "permissions" : [ {
+   definition     :       "ownerId" : {
+   definition     :         "value" : 4,
+   definition     :         "type" : "GROUP"
+   definition     :       },
+   definition     :       "type" : "VIEW"
+   definition     :     }, {
+   definition     :       "ownerId" : {
+   definition     :         "value" : 3,
+   definition     :         "type" : "GROUP"
+   definition     :       },
+   definition     :       "type" : "VIEW"
+   definition     :     } ],
+   definition     :     "fieldTypeName" : null,
+   definition     :     "isInherited" : false,
+   definition     :     "explicitPermissions" : [ {
+   definition     :       "ownerId" : {
+   definition     :         "value" : 4,
+   definition     :         "type" : "GROUP"
+   definition     :       },
+   definition     :       "type" : "VIEW"
+   definition     :     }, {
+   definition     :       "ownerId" : {
+   definition     :         "value" : 3,
+   definition     :         "type" : "GROUP"
+   definition     :       },
+   definition     :       "type" : "VIEW"
+   definition     :     } ],
+   definition     :     "overlayDescriptor" : null,
+   definition     :     "fieldMapping" : null,
+   definition     :     "allowPermissionsOverlay" : false,
+   definition     :     "allowOtherPropertiesOverlay" : false,
+   definition     :     "defaultValue" : null,
+   definition     :     "anyUserAllowedToSubmit" : false
+   definition     :   }, {
+   definition     :     "resourceType" : "com.bmc.arsys.rx.standardlib.record.CharacterFieldDefinition",
+   definition     :     "version" : null,
+   definition     :     "lastUpdateTime" : 1474197809791,
+   definition     :     "lastChangedBy" : "seth",
+   definition     :     "owner" : "seth",
+   definition     :     "name" : "Assignee",
+   definition     :     "tags" : null,
+   definition     :     "description" : null,
+   definition     :     "overlayGroupId" : "1",
+   definition     :     "id" : 4,
+   definition     :     "fieldOption" : "OPTIONAL",
+   definition     :     "permissions" : [ {
+   definition     :       "ownerId" : {
+   definition     :         "value" : 4,
+   definition     :         "type" : "GROUP"
+   definition     :       },
+   definition     :       "type" : "VIEW"
+   definition     :     } ],
+   definition     :     "fieldTypeName" : null,
+   definition     :     "isInherited" : false,
+   definition     :     "explicitPermissions" : [ {
+   definition     :       "ownerId" : {
+   definition     :         "value" : 4,
+   definition     :         "type" : "GROUP"
+   definition     :       },
+   definition     :       "type" : "VIEW"
+   definition     :     } ],
+   definition     :     "overlayDescriptor" : null,
+   definition     :     "fieldMapping" : null,
+   definition     :     "allowPermissionsOverlay" : false,
+   definition     :     "allowOtherPropertiesOverlay" : false,
+   definition     :     "maxLength" : 254,
+   definition     :     "defaultValue" : null,
+   definition     :     "searchDefinition" : null,
+   definition     :     "namedListDefinition" : null,
+   definition     :     "shouldPersistEncrypted" : false,
+   definition     :     "anyUserAllowedToSubmit" : false
+   definition     :   }, {
+   definition     :     "resourceType" : "com.bmc.arsys.rx.standardlib.record.CharacterFieldDefinition",
+   definition     :     "version" : null,
+   definition     :     "lastUpdateTime" : 1474197809791,
+   definition     :     "lastChangedBy" : "seth",
+   definition     :     "owner" : "seth",
+   definition     :     "name" : "Modified By",
+   definition     :     "tags" : null,
+   definition     :     "description" : null,
+   definition     :     "overlayGroupId" : "1",
+   definition     :     "id" : 5,
+   definition     :     "fieldOption" : "SYSTEM",
+   definition     :     "permissions" : [ {
+   definition     :       "ownerId" : {
+   definition     :         "value" : 4,
+   definition     :         "type" : "GROUP"
+   definition     :       },
+   definition     :       "type" : "VIEW"
+   definition     :     } ],
+   definition     :     "fieldTypeName" : null,
+   definition     :     "isInherited" : false,
+   definition     :     "explicitPermissions" : [ {
+   definition     :       "ownerId" : {
+   definition     :         "value" : 4,
+   definition     :         "type" : "GROUP"
+   definition     :       },
+   definition     :       "type" : "VIEW"
+   definition     :     } ],
+   definition     :     "overlayDescriptor" : null,
+   definition     :     "fieldMapping" : null,
+   definition     :     "allowPermissionsOverlay" : false,
+   definition     :     "allowOtherPropertiesOverlay" : false,
+   definition     :     "maxLength" : 254,
+   definition     :     "defaultValue" : null,
+   definition     :     "searchDefinition" : null,
+   definition     :     "namedListDefinition" : null,
+   definition     :     "shouldPersistEncrypted" : false,
+   definition     :     "anyUserAllowedToSubmit" : false
+   definition     :   }, {
+   definition     :     "resourceType" : "com.bmc.arsys.rx.standardlib.record.DateTimeFieldDefinition",
+   definition     :     "version" : null,
+   definition     :     "lastUpdateTime" : 1474197809791,
+   definition     :     "lastChangedBy" : "seth",
+   definition     :     "owner" : "seth",
+   definition     :     "name" : "Modified Date",
+   definition     :     "tags" : null,
+   definition     :     "description" : null,
+   definition     :     "overlayGroupId" : "1",
+   definition     :     "id" : 6,
+   definition     :     "fieldOption" : "SYSTEM",
+   definition     :     "permissions" : [ {
+   definition     :       "ownerId" : {
+   definition     :         "value" : 4,
+   definition     :         "type" : "GROUP"
+   definition     :       },
+   definition     :       "type" : "VIEW"
+   definition     :     } ],
+   definition     :     "fieldTypeName" : null,
+   definition     :     "isInherited" : false,
+   definition     :     "explicitPermissions" : [ {
+   definition     :       "ownerId" : {
+   definition     :         "value" : 4,
+   definition     :         "type" : "GROUP"
+   definition     :       },
+   definition     :       "type" : "VIEW"
+   definition     :     } ],
+   definition     :     "overlayDescriptor" : null,
+   definition     :     "fieldMapping" : null,
+   definition     :     "allowPermissionsOverlay" : false,
+   definition     :     "allowOtherPropertiesOverlay" : false,
+   definition     :     "defaultValue" : null,
+   definition     :     "anyUserAllowedToSubmit" : false
+   definition     :   }, {
+   definition     :     "resourceType" : "com.bmc.arsys.rx.standardlib.record.SelectionFieldDefinition",
+   definition     :     "version" : null,
+   definition     :     "lastUpdateTime" : 1474197809791,
+   definition     :     "lastChangedBy" : "seth",
+   definition     :     "owner" : "seth",
+   definition     :     "name" : "Status",
+   definition     :     "tags" : null,
+   definition     :     "description" : null,
+   definition     :     "overlayGroupId" : "1",
+   definition     :     "id" : 7,
+   definition     :     "fieldOption" : "REQUIRED",
+   definition     :     "permissions" : [ {
+   definition     :       "ownerId" : {
+   definition     :         "value" : 4,
+   definition     :         "type" : "GROUP"
+   definition     :       },
+   definition     :       "type" : "CHANGE"
+   definition     :     }, {
+   definition     :       "ownerId" : {
+   definition     :         "value" : 3,
+   definition     :         "type" : "GROUP"
+   definition     :       },
+   definition     :       "type" : "VIEW"
+   definition     :     } ],
+   definition     :     "fieldTypeName" : null,
+   definition     :     "isInherited" : false,
+   definition     :     "explicitPermissions" : [ {
+   definition     :       "ownerId" : {
+   definition     :         "value" : 4,
+   definition     :         "type" : "GROUP"
+   definition     :       },
+   definition     :       "type" : "CHANGE"
+   definition     :     }, {
+   definition     :       "ownerId" : {
+   definition     :         "value" : 3,
+   definition     :         "type" : "GROUP"
+   definition     :       },
+   definition     :       "type" : "VIEW"
+   definition     :     } ],
+   definition     :     "overlayDescriptor" : null,
+   definition     :     "fieldMapping" : null,
+   definition     :     "allowPermissionsOverlay" : false,
+   definition     :     "allowOtherPropertiesOverlay" : false,
+   definition     :     "optionNamesById" : {
+   definition     :       "0" : "New",
+   definition     :       "1" : "Assigned",
+   definition     :       "2" : "Fixed",
+   definition     :       "3" : "Rejected",
+   definition     :       "4" : "Closed"
+   definition     :     },
+   definition     :     "displayType" : null,
+   definition     :     "defaultValue" : "0",
+   definition     :     "anyUserAllowedToSubmit" : false
+   definition     :   }, {
+   definition     :     "resourceType" : "com.bmc.arsys.rx.standardlib.record.CharacterFieldDefinition",
+   definition     :     "version" : null,
+   definition     :     "lastUpdateTime" : 1474197809791,
+   definition     :     "lastChangedBy" : "seth",
+   definition     :     "owner" : "seth",
+   definition     :     "name" : "Description",
+   definition     :     "tags" : null,
+   definition     :     "description" : null,
+   definition     :     "overlayGroupId" : "1",
+   definition     :     "id" : 8,
+   definition     :     "fieldOption" : "REQUIRED",
+   definition     :     "permissions" : [ {
+   definition     :       "ownerId" : {
+   definition     :         "value" : 4,
+   definition     :         "type" : "GROUP"
+   definition     :       },
+   definition     :       "type" : "VIEW"
+   definition     :     }, {
+   definition     :       "ownerId" : {
+   definition     :         "value" : 3,
+   definition     :         "type" : "GROUP"
+   definition     :       },
+   definition     :       "type" : "VIEW"
+   definition     :     } ],
+   definition     :     "fieldTypeName" : null,
+   definition     :     "isInherited" : false,
+   definition     :     "explicitPermissions" : [ {
+   definition     :       "ownerId" : {
+   definition     :         "value" : 4,
+   definition     :         "type" : "GROUP"
+   definition     :       },
+   definition     :       "type" : "VIEW"
+   definition     :     }, {
+   definition     :       "ownerId" : {
+   definition     :         "value" : 3,
+   definition     :         "type" : "GROUP"
+   definition     :       },
+   definition     :       "type" : "VIEW"
+   definition     :     } ],
+   definition     :     "overlayDescriptor" : null,
+   definition     :     "fieldMapping" : null,
+   definition     :     "allowPermissionsOverlay" : false,
+   definition     :     "allowOtherPropertiesOverlay" : false,
+   definition     :     "maxLength" : 254,
+   definition     :     "defaultValue" : "se.searchar.searcharlib:searchar_cfg_form",
+   definition     :     "searchDefinition" : null,
+   definition     :     "namedListDefinition" : null,
+   definition     :     "shouldPersistEncrypted" : false,
+   definition     :     "anyUserAllowedToSubmit" : true
+   definition     :   }, {
+   definition     :     "resourceType" : "com.bmc.arsys.rx.standardlib.record.SelectionFieldDefinition",
+   definition     :     "version" : null,
+   definition     :     "lastUpdateTime" : 1474197809791,
+   definition     :     "lastChangedBy" : "seth",
+   definition     :     "owner" : "seth",
+   definition     :     "name" : "Notifier Listening",
+   definition     :     "tags" : null,
+   definition     :     "description" : null,
+   definition     :     "overlayGroupId" : "1",
+   definition     :     "id" : 16,
+   definition     :     "fieldOption" : "SYSTEM",
+   definition     :     "permissions" : [ {
+   definition     :       "ownerId" : {
+   definition     :         "value" : 4,
+   definition     :         "type" : "GROUP"
+   definition     :       },
+   definition     :       "type" : "VIEW"
+   definition     :     }, {
+   definition     :       "ownerId" : {
+   definition     :         "value" : 3,
+   definition     :         "type" : "GROUP"
+   definition     :       },
+   definition     :       "type" : "VIEW"
+   definition     :     } ],
+   definition     :     "fieldTypeName" : null,
+   definition     :     "isInherited" : false,
+   definition     :     "explicitPermissions" : [ {
+   definition     :       "ownerId" : {
+   definition     :         "value" : 4,
+   definition     :         "type" : "GROUP"
+   definition     :       },
+   definition     :       "type" : "VIEW"
+   definition     :     }, {
+   definition     :       "ownerId" : {
+   definition     :         "value" : 3,
+   definition     :         "type" : "GROUP"
+   definition     :       },
+   definition     :       "type" : "VIEW"
+   definition     :     } ],
+   definition     :     "overlayDescriptor" : null,
+   definition     :     "fieldMapping" : null,
+   definition     :     "allowPermissionsOverlay" : false,
+   definition     :     "allowOtherPropertiesOverlay" : false,
+   definition     :     "optionNamesById" : {
+   definition     :       "0" : "Not Listening",
+   definition     :       "1" : "Listening"
+   definition     :     },
+   definition     :     "displayType" : null,
+   definition     :     "defaultValue" : "0",
+   definition     :     "anyUserAllowedToSubmit" : false
+   definition     :   }, {
+   definition     :     "resourceType" : "com.bmc.arsys.rx.standardlib.record.CharacterFieldDefinition",
+   definition     :     "version" : null,
+   definition     :     "lastUpdateTime" : 1474197576857,
+   definition     :     "lastChangedBy" : "seth",
+   definition     :     "owner" : "seth",
+   definition     :     "name" : "GUID",
+   definition     :     "tags" : null,
+   definition     :     "description" : null,
+   definition     :     "overlayGroupId" : "1",
+   definition     :     "id" : 179,
+   definition     :     "fieldOption" : "OPTIONAL",
+   definition     :     "permissions" : [ {
+   definition     :       "ownerId" : {
+   definition     :         "value" : 0,
+   definition     :         "type" : "GROUP"
+   definition     :       },
+   definition     :       "type" : "VIEW"
+   definition     :     } ],
+   definition     :     "fieldTypeName" : null,
+   definition     :     "isInherited" : false,
+   definition     :     "explicitPermissions" : [ {
+   definition     :       "ownerId" : {
+   definition     :         "value" : 0,
+   definition     :         "type" : "GROUP"
+   definition     :       },
+   definition     :       "type" : "VIEW"
+   definition     :     } ],
+   definition     :     "overlayDescriptor" : null,
+   definition     :     "fieldMapping" : null,
+   definition     :     "allowPermissionsOverlay" : false,
+   definition     :     "allowOtherPropertiesOverlay" : false,
+   definition     :     "maxLength" : 38,
+   definition     :     "defaultValue" : null,
+   definition     :     "searchDefinition" : null,
+   definition     :     "namedListDefinition" : null,
+   definition     :     "shouldPersistEncrypted" : false,
+   definition     :     "anyUserAllowedToSubmit" : true
+   definition     :   }, {
+   definition     :     "resourceType" : "com.bmc.arsys.rx.standardlib.record.CharacterFieldDefinition",
+   definition     :     "version" : null,
+   definition     :     "lastUpdateTime" : 1474197576857,
+   definition     :     "lastChangedBy" : "seth",
+   definition     :     "owner" : "seth",
+   definition     :     "name" : "ID",
+   definition     :     "tags" : null,
+   definition     :     "description" : null,
+   definition     :     "overlayGroupId" : "1",
+   definition     :     "id" : 379,
+   definition     :     "fieldOption" : "OPTIONAL",
+   definition     :     "permissions" : [ {
+   definition     :       "ownerId" : {
+   definition     :         "value" : 0,
+   definition     :         "type" : "GROUP"
+   definition     :       },
+   definition     :       "type" : "VIEW"
+   definition     :     } ],
+   definition     :     "fieldTypeName" : null,
+   definition     :     "isInherited" : false,
+   definition     :     "explicitPermissions" : [ {
+   definition     :       "ownerId" : {
+   definition     :         "value" : 0,
+   definition     :         "type" : "GROUP"
+   definition     :       },
+   definition     :       "type" : "VIEW"
+   definition     :     } ],
+   definition     :     "overlayDescriptor" : null,
+   definition     :     "fieldMapping" : null,
+   definition     :     "allowPermissionsOverlay" : false,
+   definition     :     "allowOtherPropertiesOverlay" : false,
+   definition     :     "maxLength" : 38,
+   definition     :     "defaultValue" : null,
+   definition     :     "searchDefinition" : null,
+   definition     :     "namedListDefinition" : null,
+   definition     :     "shouldPersistEncrypted" : false,
+   definition     :     "anyUserAllowedToSubmit" : true
+   definition     :   }, {
+   definition     :     "resourceType" : "com.bmc.arsys.rx.standardlib.record.CharacterFieldDefinition",
+   definition     :     "version" : null,
+   definition     :     "lastUpdateTime" : 1474197809791,
+   definition     :     "lastChangedBy" : "seth",
+   definition     :     "owner" : "seth",
+   definition     :     "name" : "Server",
+   definition     :     "tags" : null,
+   definition     :     "description" : null,
+   definition     :     "overlayGroupId" : "1",
+   definition     :     "id" : 536870913,
+   definition     :     "fieldOption" : "OPTIONAL",
+   definition     :     "permissions" : null,
+   definition     :     "fieldTypeName" : "com.bmc.arsys.rx.services.record.domain.DefaultFieldType",
+   definition     :     "isInherited" : false,
+   definition     :     "explicitPermissions" : null,
+   definition     :     "overlayDescriptor" : null,
+   definition     :     "fieldMapping" : null,
+   definition     :     "allowPermissionsOverlay" : false,
+   definition     :     "allowOtherPropertiesOverlay" : false,
+   definition     :     "maxLength" : 254,
+   definition     :     "defaultValue" : null,
+   definition     :     "searchDefinition" : null,
+   definition     :     "namedListDefinition" : "se.searchar.searcharlib:Searcarh Servers",
+   definition     :     "shouldPersistEncrypted" : false,
+   definition     :     "anyUserAllowedToSubmit" : false
+   definition     :   } ],
+   definition     :   "recordInstancePrefix" : "",
+   definition     :   "permissions" : [ ],
+   definition     :   "securityLabels" : [ ],
+   definition     :   "rowSecurityPropagations" : null,
+   definition     :   "recordTypeName" : "com.bmc.arsys.rx.services.record.domain.DefaultRecordType",
+   definition     :   "weightedRelevancyFields" : null,
+   definition     :   "shouldExportData" : false,
+   definition     :   "fullPermissions" : [ ],
+   definition     :   "overlayDescriptor" : null,
+   definition     :   "allowPermissionsOverlay" : false,
+   definition     :   "allowOtherPropertiesOverlay" : false,
+   definition     :   "allowIndexesOverlay" : false,
+   definition     :   "allowFieldsOverlay" : false,
+   definition     :   "allowNonAdminToDeleteRecordInstances" : false,
+   definition     :   "indexDefinitions" : [ {
+   definition     :     "indexName" : "I1056_179_T1056",
+   definition     :     "unique" : true,
+   definition     :     "indexFieldIds" : [ 179 ]
+   definition     :   } ],
+   definition     :   "inheritanceDescriptor" : null,
+   definition     :   "isSharedInstanceStorage" : false,
+   definition     :   "isAbstract" : false,
+   definition     :   "isFinal" : false
+   definition     : }
+end
+begin record definition
+   name           : se.searchar.searcharlib:searchar_cfg_field
+   definition     : {
+   definition     :   "resourceType" : "com.bmc.arsys.rx.services.record.domain.RegularRecordDefinition",
+   definition     :   "version" : "0",
+   definition     :   "lastUpdateTime" : 1474197708555,
+   definition     :   "lastChangedBy" : "seth",
+   definition     :   "owner" : "seth",
+   definition     :   "name" : "se.searchar.searcharlib:searchar_cfg_field",
+   definition     :   "tags" : null,
+   definition     :   "description" : null,
+   definition     :   "overlayGroupId" : "1",
+   definition     :   "fieldDefinitions" : [ {
+   definition     :     "resourceType" : "com.bmc.arsys.rx.standardlib.record.CharacterFieldDefinition",
+   definition     :     "version" : null,
+   definition     :     "lastUpdateTime" : 1474197708555,
+   definition     :     "lastChangedBy" : "seth",
+   definition     :     "owner" : "seth",
+   definition     :     "name" : "Display ID",
+   definition     :     "tags" : null,
+   definition     :     "description" : null,
+   definition     :     "overlayGroupId" : "1",
+   definition     :     "id" : 1,
+   definition     :     "fieldOption" : "SYSTEM",
+   definition     :     "permissions" : [ {
+   definition     :       "ownerId" : {
+   definition     :         "value" : 0,
+   definition     :         "type" : "GROUP"
+   definition     :       },
+   definition     :       "type" : "VIEW"
+   definition     :     }, {
+   definition     :       "ownerId" : {
+   definition     :         "value" : 4,
+   definition     :         "type" : "GROUP"
+   definition     :       },
+   definition     :       "type" : "VIEW"
+   definition     :     }, {
+   definition     :       "ownerId" : {
+   definition     :         "value" : 3,
+   definition     :         "type" : "GROUP"
+   definition     :       },
+   definition     :       "type" : "VIEW"
+   definition     :     } ],
+   definition     :     "fieldTypeName" : null,
+   definition     :     "isInherited" : false,
+   definition     :     "explicitPermissions" : [ {
+   definition     :       "ownerId" : {
+   definition     :         "value" : 0,
+   definition     :         "type" : "GROUP"
+   definition     :       },
+   definition     :       "type" : "VIEW"
+   definition     :     }, {
+   definition     :       "ownerId" : {
+   definition     :         "value" : 4,
+   definition     :         "type" : "GROUP"
+   definition     :       },
+   definition     :       "type" : "VIEW"
+   definition     :     }, {
+   definition     :       "ownerId" : {
+   definition     :         "value" : 3,
+   definition     :         "type" : "GROUP"
+   definition     :       },
+   definition     :       "type" : "VIEW"
+   definition     :     } ],
+   definition     :     "overlayDescriptor" : null,
+   definition     :     "fieldMapping" : null,
+   definition     :     "allowPermissionsOverlay" : false,
+   definition     :     "allowOtherPropertiesOverlay" : false,
+   definition     :     "maxLength" : 15,
+   definition     :     "defaultValue" : "",
+   definition     :     "searchDefinition" : null,
+   definition     :     "namedListDefinition" : null,
+   definition     :     "shouldPersistEncrypted" : false,
+   definition     :     "anyUserAllowedToSubmit" : false
+   definition     :   }, {
+   definition     :     "resourceType" : "com.bmc.arsys.rx.standardlib.record.CharacterFieldDefinition",
+   definition     :     "version" : null,
+   definition     :     "lastUpdateTime" : 1474197708555,
+   definition     :     "lastChangedBy" : "seth",
+   definition     :     "owner" : "seth",
+   definition     :     "name" : "Created By",
+   definition     :     "tags" : null,
+   definition     :     "description" : null,
+   definition     :     "overlayGroupId" : "1",
+   definition     :     "id" : 2,
+   definition     :     "fieldOption" : "REQUIRED",
+   definition     :     "permissions" : [ {
+   definition     :       "ownerId" : {
+   definition     :         "value" : 4,
+   definition     :         "type" : "GROUP"
+   definition     :       },
+   definition     :       "type" : "VIEW"
+   definition     :     }, {
+   definition     :       "ownerId" : {
+   definition     :         "value" : 3,
+   definition     :         "type" : "GROUP"
+   definition     :       },
+   definition     :       "type" : "VIEW"
+   definition     :     } ],
+   definition     :     "fieldTypeName" : null,
+   definition     :     "isInherited" : false,
+   definition     :     "explicitPermissions" : [ {
+   definition     :       "ownerId" : {
+   definition     :         "value" : 4,
+   definition     :         "type" : "GROUP"
+   definition     :       },
+   definition     :       "type" : "VIEW"
+   definition     :     }, {
+   definition     :       "ownerId" : {
+   definition     :         "value" : 3,
+   definition     :         "type" : "GROUP"
+   definition     :       },
+   definition     :       "type" : "VIEW"
+   definition     :     } ],
+   definition     :     "overlayDescriptor" : null,
+   definition     :     "fieldMapping" : null,
+   definition     :     "allowPermissionsOverlay" : false,
+   definition     :     "allowOtherPropertiesOverlay" : false,
+   definition     :     "maxLength" : 254,
+   definition     :     "defaultValue" : "$USER$",
+   definition     :     "searchDefinition" : null,
+   definition     :     "namedListDefinition" : null,
+   definition     :     "shouldPersistEncrypted" : false,
+   definition     :     "anyUserAllowedToSubmit" : true
+   definition     :   }, {
+   definition     :     "resourceType" : "com.bmc.arsys.rx.standardlib.record.DateTimeFieldDefinition",
+   definition     :     "version" : null,
+   definition     :     "lastUpdateTime" : 1474197708555,
+   definition     :     "lastChangedBy" : "seth",
+   definition     :     "owner" : "seth",
+   definition     :     "name" : "Created Date",
+   definition     :     "tags" : null,
+   definition     :     "description" : null,
+   definition     :     "overlayGroupId" : "1",
+   definition     :     "id" : 3,
+   definition     :     "fieldOption" : "SYSTEM",
+   definition     :     "permissions" : [ {
+   definition     :       "ownerId" : {
+   definition     :         "value" : 4,
+   definition     :         "type" : "GROUP"
+   definition     :       },
+   definition     :       "type" : "VIEW"
+   definition     :     }, {
+   definition     :       "ownerId" : {
+   definition     :         "value" : 3,
+   definition     :         "type" : "GROUP"
+   definition     :       },
+   definition     :       "type" : "VIEW"
+   definition     :     } ],
+   definition     :     "fieldTypeName" : null,
+   definition     :     "isInherited" : false,
+   definition     :     "explicitPermissions" : [ {
+   definition     :       "ownerId" : {
+   definition     :         "value" : 4,
+   definition     :         "type" : "GROUP"
+   definition     :       },
+   definition     :       "type" : "VIEW"
+   definition     :     }, {
+   definition     :       "ownerId" : {
+   definition     :         "value" : 3,
+   definition     :         "type" : "GROUP"
+   definition     :       },
+   definition     :       "type" : "VIEW"
+   definition     :     } ],
+   definition     :     "overlayDescriptor" : null,
+   definition     :     "fieldMapping" : null,
+   definition     :     "allowPermissionsOverlay" : false,
+   definition     :     "allowOtherPropertiesOverlay" : false,
+   definition     :     "defaultValue" : null,
+   definition     :     "anyUserAllowedToSubmit" : false
+   definition     :   }, {
+   definition     :     "resourceType" : "com.bmc.arsys.rx.standardlib.record.CharacterFieldDefinition",
+   definition     :     "version" : null,
+   definition     :     "lastUpdateTime" : 1474197708555,
+   definition     :     "lastChangedBy" : "seth",
+   definition     :     "owner" : "seth",
+   definition     :     "name" : "Assignee",
+   definition     :     "tags" : null,
+   definition     :     "description" : null,
+   definition     :     "overlayGroupId" : "1",
+   definition     :     "id" : 4,
+   definition     :     "fieldOption" : "OPTIONAL",
+   definition     :     "permissions" : [ {
+   definition     :       "ownerId" : {
+   definition     :         "value" : 4,
+   definition     :         "type" : "GROUP"
+   definition     :       },
+   definition     :       "type" : "VIEW"
+   definition     :     } ],
+   definition     :     "fieldTypeName" : null,
+   definition     :     "isInherited" : false,
+   definition     :     "explicitPermissions" : [ {
+   definition     :       "ownerId" : {
+   definition     :         "value" : 4,
+   definition     :         "type" : "GROUP"
+   definition     :       },
+   definition     :       "type" : "VIEW"
+   definition     :     } ],
+   definition     :     "overlayDescriptor" : null,
+   definition     :     "fieldMapping" : null,
+   definition     :     "allowPermissionsOverlay" : false,
+   definition     :     "allowOtherPropertiesOverlay" : false,
+   definition     :     "maxLength" : 254,
+   definition     :     "defaultValue" : null,
+   definition     :     "searchDefinition" : null,
+   definition     :     "namedListDefinition" : null,
+   definition     :     "shouldPersistEncrypted" : false,
+   definition     :     "anyUserAllowedToSubmit" : false
+   definition     :   }, {
+   definition     :     "resourceType" : "com.bmc.arsys.rx.standardlib.record.CharacterFieldDefinition",
+   definition     :     "version" : null,
+   definition     :     "lastUpdateTime" : 1474197708555,
+   definition     :     "lastChangedBy" : "seth",
+   definition     :     "owner" : "seth",
+   definition     :     "name" : "Modified By",
+   definition     :     "tags" : null,
+   definition     :     "description" : null,
+   definition     :     "overlayGroupId" : "1",
+   definition     :     "id" : 5,
+   definition     :     "fieldOption" : "SYSTEM",
+   definition     :     "permissions" : [ {
+   definition     :       "ownerId" : {
+   definition     :         "value" : 4,
+   definition     :         "type" : "GROUP"
+   definition     :       },
+   definition     :       "type" : "VIEW"
+   definition     :     } ],
+   definition     :     "fieldTypeName" : null,
+   definition     :     "isInherited" : false,
+   definition     :     "explicitPermissions" : [ {
+   definition     :       "ownerId" : {
+   definition     :         "value" : 4,
+   definition     :         "type" : "GROUP"
+   definition     :       },
+   definition     :       "type" : "VIEW"
+   definition     :     } ],
+   definition     :     "overlayDescriptor" : null,
+   definition     :     "fieldMapping" : null,
+   definition     :     "allowPermissionsOverlay" : false,
+   definition     :     "allowOtherPropertiesOverlay" : false,
+   definition     :     "maxLength" : 254,
+   definition     :     "defaultValue" : null,
+   definition     :     "searchDefinition" : null,
+   definition     :     "namedListDefinition" : null,
+   definition     :     "shouldPersistEncrypted" : false,
+   definition     :     "anyUserAllowedToSubmit" : false
+   definition     :   }, {
+   definition     :     "resourceType" : "com.bmc.arsys.rx.standardlib.record.DateTimeFieldDefinition",
+   definition     :     "version" : null,
+   definition     :     "lastUpdateTime" : 1474197708555,
+   definition     :     "lastChangedBy" : "seth",
+   definition     :     "owner" : "seth",
+   definition     :     "name" : "Modified Date",
+   definition     :     "tags" : null,
+   definition     :     "description" : null,
+   definition     :     "overlayGroupId" : "1",
+   definition     :     "id" : 6,
+   definition     :     "fieldOption" : "SYSTEM",
+   definition     :     "permissions" : [ {
+   definition     :       "ownerId" : {
+   definition     :         "value" : 4,
+   definition     :         "type" : "GROUP"
+   definition     :       },
+   definition     :       "type" : "VIEW"
+   definition     :     } ],
+   definition     :     "fieldTypeName" : null,
+   definition     :     "isInherited" : false,
+   definition     :     "explicitPermissions" : [ {
+   definition     :       "ownerId" : {
+   definition     :         "value" : 4,
+   definition     :         "type" : "GROUP"
+   definition     :       },
+   definition     :       "type" : "VIEW"
+   definition     :     } ],
+   definition     :     "overlayDescriptor" : null,
+   definition     :     "fieldMapping" : null,
+   definition     :     "allowPermissionsOverlay" : false,
+   definition     :     "allowOtherPropertiesOverlay" : false,
+   definition     :     "defaultValue" : null,
+   definition     :     "anyUserAllowedToSubmit" : false
+   definition     :   }, {
+   definition     :     "resourceType" : "com.bmc.arsys.rx.standardlib.record.SelectionFieldDefinition",
+   definition     :     "version" : null,
+   definition     :     "lastUpdateTime" : 1474197708555,
+   definition     :     "lastChangedBy" : "seth",
+   definition     :     "owner" : "seth",
+   definition     :     "name" : "Status",
+   definition     :     "tags" : null,
+   definition     :     "description" : null,
+   definition     :     "overlayGroupId" : "1",
+   definition     :     "id" : 7,
+   definition     :     "fieldOption" : "REQUIRED",
+   definition     :     "permissions" : [ {
+   definition     :       "ownerId" : {
+   definition     :         "value" : 4,
+   definition     :         "type" : "GROUP"
+   definition     :       },
+   definition     :       "type" : "CHANGE"
+   definition     :     }, {
+   definition     :       "ownerId" : {
+   definition     :         "value" : 3,
+   definition     :         "type" : "GROUP"
+   definition     :       },
+   definition     :       "type" : "VIEW"
+   definition     :     } ],
+   definition     :     "fieldTypeName" : null,
+   definition     :     "isInherited" : false,
+   definition     :     "explicitPermissions" : [ {
+   definition     :       "ownerId" : {
+   definition     :         "value" : 4,
+   definition     :         "type" : "GROUP"
+   definition     :       },
+   definition     :       "type" : "CHANGE"
+   definition     :     }, {
+   definition     :       "ownerId" : {
+   definition     :         "value" : 3,
+   definition     :         "type" : "GROUP"
+   definition     :       },
+   definition     :       "type" : "VIEW"
+   definition     :     } ],
+   definition     :     "overlayDescriptor" : null,
+   definition     :     "fieldMapping" : null,
+   definition     :     "allowPermissionsOverlay" : false,
+   definition     :     "allowOtherPropertiesOverlay" : false,
+   definition     :     "optionNamesById" : {
+   definition     :       "0" : "New",
+   definition     :       "1" : "Assigned",
+   definition     :       "2" : "Fixed",
+   definition     :       "3" : "Rejected",
+   definition     :       "4" : "Closed"
+   definition     :     },
+   definition     :     "displayType" : null,
+   definition     :     "defaultValue" : "0",
+   definition     :     "anyUserAllowedToSubmit" : false
+   definition     :   }, {
+   definition     :     "resourceType" : "com.bmc.arsys.rx.standardlib.record.CharacterFieldDefinition",
+   definition     :     "version" : null,
+   definition     :     "lastUpdateTime" : 1474197708555,
+   definition     :     "lastChangedBy" : "seth",
+   definition     :     "owner" : "seth",
+   definition     :     "name" : "Description",
+   definition     :     "tags" : null,
+   definition     :     "description" : null,
+   definition     :     "overlayGroupId" : "1",
+   definition     :     "id" : 8,
+   definition     :     "fieldOption" : "REQUIRED",
+   definition     :     "permissions" : [ {
+   definition     :       "ownerId" : {
+   definition     :         "value" : 4,
+   definition     :         "type" : "GROUP"
+   definition     :       },
+   definition     :       "type" : "VIEW"
+   definition     :     }, {
+   definition     :       "ownerId" : {
+   definition     :         "value" : 3,
+   definition     :         "type" : "GROUP"
+   definition     :       },
+   definition     :       "type" : "VIEW"
+   definition     :     } ],
+   definition     :     "fieldTypeName" : null,
+   definition     :     "isInherited" : false,
+   definition     :     "explicitPermissions" : [ {
+   definition     :       "ownerId" : {
+   definition     :         "value" : 4,
+   definition     :         "type" : "GROUP"
+   definition     :       },
+   definition     :       "type" : "VIEW"
+   definition     :     }, {
+   definition     :       "ownerId" : {
+   definition     :         "value" : 3,
+   definition     :         "type" : "GROUP"
+   definition     :       },
+   definition     :       "type" : "VIEW"
+   definition     :     } ],
+   definition     :     "overlayDescriptor" : null,
+   definition     :     "fieldMapping" : null,
+   definition     :     "allowPermissionsOverlay" : false,
+   definition     :     "allowOtherPropertiesOverlay" : false,
+   definition     :     "maxLength" : 254,
+   definition     :     "defaultValue" : "se.searchar.searcharlib:searchar_cfg_field",
+   definition     :     "searchDefinition" : null,
+   definition     :     "namedListDefinition" : null,
+   definition     :     "shouldPersistEncrypted" : false,
+   definition     :     "anyUserAllowedToSubmit" : true
+   definition     :   }, {
+   definition     :     "resourceType" : "com.bmc.arsys.rx.standardlib.record.SelectionFieldDefinition",
+   definition     :     "version" : null,
+   definition     :     "lastUpdateTime" : 1474197708555,
+   definition     :     "lastChangedBy" : "seth",
+   definition     :     "owner" : "seth",
+   definition     :     "name" : "Notifier Listening",
+   definition     :     "tags" : null,
+   definition     :     "description" : null,
+   definition     :     "overlayGroupId" : "1",
+   definition     :     "id" : 16,
+   definition     :     "fieldOption" : "SYSTEM",
+   definition     :     "permissions" : [ {
+   definition     :       "ownerId" : {
+   definition     :         "value" : 4,
+   definition     :         "type" : "GROUP"
+   definition     :       },
+   definition     :       "type" : "VIEW"
+   definition     :     }, {
+   definition     :       "ownerId" : {
+   definition     :         "value" : 3,
+   definition     :         "type" : "GROUP"
+   definition     :       },
+   definition     :       "type" : "VIEW"
+   definition     :     } ],
+   definition     :     "fieldTypeName" : null,
+   definition     :     "isInherited" : false,
+   definition     :     "explicitPermissions" : [ {
+   definition     :       "ownerId" : {
+   definition     :         "value" : 4,
+   definition     :         "type" : "GROUP"
+   definition     :       },
+   definition     :       "type" : "VIEW"
+   definition     :     }, {
+   definition     :       "ownerId" : {
+   definition     :         "value" : 3,
+   definition     :         "type" : "GROUP"
+   definition     :       },
+   definition     :       "type" : "VIEW"
+   definition     :     } ],
+   definition     :     "overlayDescriptor" : null,
+   definition     :     "fieldMapping" : null,
+   definition     :     "allowPermissionsOverlay" : false,
+   definition     :     "allowOtherPropertiesOverlay" : false,
+   definition     :     "optionNamesById" : {
+   definition     :       "0" : "Not Listening",
+   definition     :       "1" : "Listening"
+   definition     :     },
+   definition     :     "displayType" : null,
+   definition     :     "defaultValue" : "0",
+   definition     :     "anyUserAllowedToSubmit" : false
+   definition     :   }, {
+   definition     :     "resourceType" : "com.bmc.arsys.rx.standardlib.record.CharacterFieldDefinition",
+   definition     :     "version" : null,
+   definition     :     "lastUpdateTime" : 1474197590493,
+   definition     :     "lastChangedBy" : "seth",
+   definition     :     "owner" : "seth",
+   definition     :     "name" : "GUID",
+   definition     :     "tags" : null,
+   definition     :     "description" : null,
+   definition     :     "overlayGroupId" : "1",
+   definition     :     "id" : 179,
+   definition     :     "fieldOption" : "OPTIONAL",
+   definition     :     "permissions" : [ {
+   definition     :       "ownerId" : {
+   definition     :         "value" : 0,
+   definition     :         "type" : "GROUP"
+   definition     :       },
+   definition     :       "type" : "VIEW"
+   definition     :     } ],
+   definition     :     "fieldTypeName" : null,
+   definition     :     "isInherited" : false,
+   definition     :     "explicitPermissions" : [ {
+   definition     :       "ownerId" : {
+   definition     :         "value" : 0,
+   definition     :         "type" : "GROUP"
+   definition     :       },
+   definition     :       "type" : "VIEW"
+   definition     :     } ],
+   definition     :     "overlayDescriptor" : null,
+   definition     :     "fieldMapping" : null,
+   definition     :     "allowPermissionsOverlay" : false,
+   definition     :     "allowOtherPropertiesOverlay" : false,
+   definition     :     "maxLength" : 38,
+   definition     :     "defaultValue" : null,
+   definition     :     "searchDefinition" : null,
+   definition     :     "namedListDefinition" : null,
+   definition     :     "shouldPersistEncrypted" : false,
+   definition     :     "anyUserAllowedToSubmit" : true
+   definition     :   }, {
+   definition     :     "resourceType" : "com.bmc.arsys.rx.standardlib.record.CharacterFieldDefinition",
+   definition     :     "version" : null,
+   definition     :     "lastUpdateTime" : 1474197590493,
+   definition     :     "lastChangedBy" : "seth",
+   definition     :     "owner" : "seth",
+   definition     :     "name" : "ID",
+   definition     :     "tags" : null,
+   definition     :     "description" : null,
+   definition     :     "overlayGroupId" : "1",
+   definition     :     "id" : 379,
+   definition     :     "fieldOption" : "OPTIONAL",
+   definition     :     "permissions" : [ {
+   definition     :       "ownerId" : {
+   definition     :         "value" : 0,
+   definition     :         "type" : "GROUP"
+   definition     :       },
+   definition     :       "type" : "VIEW"
+   definition     :     } ],
+   definition     :     "fieldTypeName" : null,
+   definition     :     "isInherited" : false,
+   definition     :     "explicitPermissions" : [ {
+   definition     :       "ownerId" : {
+   definition     :         "value" : 0,
+   definition     :         "type" : "GROUP"
+   definition     :       },
+   definition     :       "type" : "VIEW"
+   definition     :     } ],
+   definition     :     "overlayDescriptor" : null,
+   definition     :     "fieldMapping" : null,
+   definition     :     "allowPermissionsOverlay" : false,
+   definition     :     "allowOtherPropertiesOverlay" : false,
+   definition     :     "maxLength" : 38,
+   definition     :     "defaultValue" : null,
+   definition     :     "searchDefinition" : null,
+   definition     :     "namedListDefinition" : null,
+   definition     :     "shouldPersistEncrypted" : false,
+   definition     :     "anyUserAllowedToSubmit" : true
+   definition     :   }, {
+   definition     :     "resourceType" : "com.bmc.arsys.rx.standardlib.record.CharacterFieldDefinition",
+   definition     :     "version" : null,
+   definition     :     "lastUpdateTime" : 1474197708555,
+   definition     :     "lastChangedBy" : "seth",
+   definition     :     "owner" : "seth",
+   definition     :     "name" : "FORM_ID",
+   definition     :     "tags" : null,
+   definition     :     "description" : null,
+   definition     :     "overlayGroupId" : "1",
+   definition     :     "id" : 536870913,
+   definition     :     "fieldOption" : "OPTIONAL",
+   definition     :     "permissions" : null,
+   definition     :     "fieldTypeName" : "com.bmc.arsys.rx.services.record.domain.DefaultFieldType",
+   definition     :     "isInherited" : false,
+   definition     :     "explicitPermissions" : null,
+   definition     :     "overlayDescriptor" : null,
+   definition     :     "fieldMapping" : null,
+   definition     :     "allowPermissionsOverlay" : false,
+   definition     :     "allowOtherPropertiesOverlay" : false,
+   definition     :     "maxLength" : 254,
+   definition     :     "defaultValue" : null,
+   definition     :     "searchDefinition" : null,
+   definition     :     "namedListDefinition" : null,
+   definition     :     "shouldPersistEncrypted" : false,
+   definition     :     "anyUserAllowedToSubmit" : false
+   definition     :   } ],
+   definition     :   "recordInstancePrefix" : "",
+   definition     :   "permissions" : [ ],
+   definition     :   "securityLabels" : [ ],
+   definition     :   "rowSecurityPropagations" : null,
+   definition     :   "recordTypeName" : "com.bmc.arsys.rx.services.record.domain.DefaultRecordType",
+   definition     :   "weightedRelevancyFields" : null,
+   definition     :   "shouldExportData" : false,
+   definition     :   "fullPermissions" : [ ],
+   definition     :   "overlayDescriptor" : null,
+   definition     :   "allowPermissionsOverlay" : false,
+   definition     :   "allowOtherPropertiesOverlay" : false,
+   definition     :   "allowIndexesOverlay" : false,
+   definition     :   "allowFieldsOverlay" : false,
+   definition     :   "allowNonAdminToDeleteRecordInstances" : false,
+   definition     :   "indexDefinitions" : [ {
+   definition     :     "indexName" : "I1057_179_T1057",
+   definition     :     "unique" : true,
+   definition     :     "indexFieldIds" : [ 179 ]
+   definition     :   } ],
+   definition     :   "inheritanceDescriptor" : null,
+   definition     :   "isSharedInstanceStorage" : false,
+   definition     :   "isAbstract" : false,
+   definition     :   "isFinal" : false
+   definition     : }
+end
+begin localizable string
+   name           : LSGAAC47HT0YNAO3PGRTO3PGRT0QIE
+   timestamp      : 1474198409
+   owner          : seth
+   last-changed   : seth
+   bundle         : se.searchar.searcharlib
+   stringId       : 03213fc1-eefd-4770-9461-3483d56c2551
+   owner-objects  : 17\946abbf4-8f31-44da-90a4-f8337eeada2b
+   object-prop    : 1\90016\4\1\1\
+   locale         : default
+   string-text    : Description
+end
+begin localizable string
+   name           : LSGAAC47HT0YNAO3PGRTO3PGRT0QIG
+   timestamp      : 1474198409
+   owner          : seth
+   last-changed   : seth
+   bundle         : se.searchar.searcharlib
+   stringId       : 05d69eb7-98dd-4fcc-8170-0bd7a5b14c8a
+   owner-objects  : 17\e25ef13f-263d-49df-afda-41dc788a1c69
+   object-prop    : 1\90016\4\1\1\
+   locale         : default
+   string-text    : Spara
+end
+begin localizable string
+   name           : LSGAAC47HT0YNAO3PHAWO3PHAW0Q52
+   timestamp      : 1474198736
+   owner          : seth
+   last-changed   : seth
+   bundle         : se.searchar.searcharlib
+   stringId       : 2084a780-1d08-4acb-b334-c11eb2536e73
+   owner-objects  : 17\18a47f20-300e-44b6-bf6c-bb32c302a746
+   object-prop    : 1\90016\4\1\1\
+   locale         : default
+   string-text    : Server
+end
+begin localizable string
+   name           : LSGAAC47HT0YNAO3PHAWO3PHAW0Q5I
+   timestamp      : 1474198736
+   owner          : seth
+   last-changed   : seth
+   bundle         : se.searchar.searcharlib
+   stringId       : 4246a15b-c128-451b-be39-323109ae3bf2
+   owner-objects  : 17\2a1ad87d-1dfe-4be0-ab83-ba0d997a99fe
+   object-prop    : 1\90016\4\1\1\
+   locale         : default
+   string-text    : <p><strong>List searchar forms</strong></p><p>&nbsp;</p>
+end
+begin localizable string
+   name           : LSGAAC47HT0YNAO3PGRTO3PGRT0QID
+   timestamp      : 1474198409
+   owner          : seth
+   last-changed   : seth
+   bundle         : se.searchar.searcharlib
+   stringId       : 8187371c-c163-46a0-bcea-7ecab24a1c4e
+   owner-objects  : 17\b7026af3-1194-4946-b95a-d4471a37ab51
+   object-prop    : 1\90016\4\1\1\
+   locale         : default
+   string-text    : Status
+end
+begin localizable string
+   name           : LSGAAC47HT0YNAO3PGXKO3PGXK0Q2I
+   timestamp      : 1474198616
+   owner          : seth
+   last-changed   : seth
+   bundle         : se.searchar.searcharlib
+   stringId       : 8a45eb8b-8b03-4632-bde0-288663000783
+   owner-objects  : 17\ad897175-1f92-47ae-b350-45f686040a21
+   object-prop    : 1\90016\4\1\1\
+   locale         : default
+   string-text    : <p><strong>Edit searchar form</strong></p>
+end
+begin localizable string
+   name           : LSGAAC47HT0YNAO3PHAWO3PHAW0Q51
+   timestamp      : 1474198736
+   owner          : seth
+   last-changed   : seth
+   bundle         : se.searchar.searcharlib
+   stringId       : 93a95a13-ca3f-47a3-9de6-b061d9a6ca5e
+   owner-objects  : 17\516e5e20-fbef-48df-a61c-1c896229341f
+   object-prop    : 1\90016\4\1\1\
+   locale         : default
+   string-text    : ID
+end
+begin localizable string
+   name           : LSGAAC47HT0YNAO3PHAWO3PHAW0Q50
+   timestamp      : 1474198736
+   owner          : seth
+   last-changed   : seth
+   bundle         : se.searchar.searcharlib
+   stringId       : 97e38b87-58c3-4fb2-bd75-b8836f34d50a
+   owner-objects  : 17\e1117162-087b-4ead-8453-0567e58d1441
+   object-prop    : 1\90016\4\1\1\
+   locale         : default
+   string-text    : Description
+end
+begin localizable string
+   name           : LSGAAC47HT0YNAO3PGRTO3PGRT0QIC
+   timestamp      : 1474198409
+   owner          : seth
+   last-changed   : seth
+   bundle         : se.searchar.searcharlib
+   stringId       : b7ec9355-9947-4609-8421-81afaed2008e
+   owner-objects  : 17\67f8a4b1-3e85-4d4d-b1bb-2557731d73f5
+   object-prop    : 1\90016\4\1\1\
+   locale         : default
+   string-text    : Created By
+end
+begin localizable string
+   name           : LSGAAC47HT0YNAO3PHAWO3PHAW0Q5J
+   timestamp      : 1474198736
+   owner          : seth
+   last-changed   : seth
+   bundle         : se.searchar.searcharlib
+   stringId       : c4b07c35-6ccd-429b-b433-b43c9f9d23f7
+   owner-objects  : 17\0a5e0d13-d65c-4b9e-9861-4f06afbc57a6
+   object-prop    : 1\90016\4\1\1\
+   locale         : default
+   string-text    : Edit
+end
+begin localizable string
+   name           : LSGAAC47HT0YNAO3PGRTO3PGRT0QIF
+   timestamp      : 1474198409
+   owner          : seth
+   last-changed   : seth
+   bundle         : se.searchar.searcharlib
+   stringId       : df9d45a5-abc0-46bd-b394-9b3cb8b0b83f
+   owner-objects  : 17\a012604f-f68b-4c93-883b-1ffa741a22f7
+   object-prop    : 1\90016\4\1\1\
+   locale         : default
+   string-text    : Server
+end
+begin localizable string
+   name           : LSGAAC47HT0YNAO3PGXKO3PGXK0Q2H
+   timestamp      : 1474198616
+   owner          : seth
+   last-changed   : seth
+   bundle         : se.searchar.searcharlib
+   stringId       : e5fdfcee-32a2-4bdf-bc00-ce422c887552
+   owner-objects  : 17\5996c8bf-5d6a-44b4-8ce9-dff49dac982e
+   object-prop    : 1\90016\4\1\1\
+   locale         : default
+   string-text    : Server
+end
+begin localizable string
+   name           : LSGAAC47HT0YNAO3PGXKO3PGXK0Q2G
+   timestamp      : 1474198616
+   owner          : seth
+   last-changed   : seth
+   bundle         : se.searchar.searcharlib
+   stringId       : f24ac040-fc00-49fb-81a5-d95073d8970e
+   owner-objects  : 17\587b87a4-f629-4ec0-85e5-0b158959c74b
+   object-prop    : 1\90016\4\1\1\
+   locale         : default
+   string-text    : Status
+end
+end
+
