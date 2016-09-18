@@ -1,0 +1,23 @@
+char-set: UTF-8
+#
+#  File exported Thu Feb 25 18:52:39 PST 2016
+#
+begin application
+   name           : se.searchar.searcharlib
+begin container
+   name           : se.searchar.searcharlib
+   type           : 2
+   num-references : 1
+   timestamp      : 1456453588
+   owner          : Demo
+   last-changed   : Demo
+   export-version : 13
+   object-prop    : 2\90002\4\23\se.searchar.searcharlib\90019\4\23\se.searchar.searcharlib\
+reference {
+   type           : 32839
+   datatype       : 1
+   value          : 2\2\
+}
+end
+
+end
